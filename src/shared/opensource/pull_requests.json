@@ -1,2324 +1,2504 @@
 {
-  "closed": 33,
+  "closed": 1,
   "data": [
     {
-      "id": "MDExOlB1bGxSZXF1ZXN0NDA5NDQxNDk1",
-      "title": "Migrated some files from TF 1.0 to 2.0",
-      "url": "https://github.com/tensorflow/addons/pull/1746",
-      "state": "OPEN",
-      "mergedBy": null,
-      "createdAt": "2020-04-27T11:34:31Z",
-      "number": 1746,
-      "changedFiles": 2,
-      "additions": 1,
-      "deletions": 6,
-      "baseRepository": {
-        "name": "addons",
-        "url": "https://github.com/tensorflow/addons",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0NDA5MDU3MDUz",
-      "title": "Added tutorial notebooks for Focal and Contrastive losses",
-      "url": "https://github.com/tensorflow/addons/pull/1732",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2020-04-26T10:17:22Z",
-      "number": 1732,
-      "changedFiles": 2,
-      "additions": 567,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "addons",
-        "url": "https://github.com/tensorflow/addons",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0NDA4OTAxNTAy",
-      "title": "Fixed CyclicLearningRate and its tests' errors",
-      "url": "https://github.com/tensorflow/addons/pull/1729",
+      "id": "PR_kwDOFEZOmM5MAzMQ",
+      "title": "Fix: resolvendo a listagem de campos customizados dentro do cadastro de pessoa",
+      "url": "https://github.com/crmpiperun/piperun-yii/pull/1431",
       "state": "MERGED",
       "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/18154355?u=7bcba6c98d214c5935b46334ec888b43893f3b89&v=4",
-        "url": "https://github.com/seanpmorgan",
-        "login": "seanpmorgan"
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5984110?u=b249a0b9916a2fa1086ca114bd0a6f457e358383&v=4",
+        "url": "https://github.com/hbranco",
+        "login": "hbranco"
       },
-      "createdAt": "2020-04-25T12:33:41Z",
-      "number": 1729,
-      "changedFiles": 2,
-      "additions": 60,
-      "deletions": 12,
-      "baseRepository": {
-        "name": "addons",
-        "url": "https://github.com/tensorflow/addons",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0NDA4ODY0NDU1",
-      "title": "Added serializability tests in all optimizers and fixed serializability bug in yogi",
-      "url": "https://github.com/tensorflow/addons/pull/1728",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/18154355?u=7bcba6c98d214c5935b46334ec888b43893f3b89&v=4",
-        "url": "https://github.com/seanpmorgan",
-        "login": "seanpmorgan"
-      },
-      "createdAt": "2020-04-25T07:19:04Z",
-      "number": 1728,
-      "changedFiles": 10,
-      "additions": 80,
-      "deletions": 2,
-      "baseRepository": {
-        "name": "addons",
-        "url": "https://github.com/tensorflow/addons",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0NDA3ODkzNjM0",
-      "title": "Setting up complete workflow for project",
-      "url": "https://github.com/ashutosh1919/masterPortfolio/pull/4",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/20843596?u=6deb5872cde2e3ab5bf5d48ece503bc8b5b0bcf6&v=4",
-        "url": "https://github.com/ashutosh1919",
-        "login": "ashutosh1919"
-      },
-      "createdAt": "2020-04-23T12:48:04Z",
-      "number": 4,
-      "changedFiles": 19,
-      "additions": 38,
-      "deletions": 47,
-      "baseRepository": {
-        "name": "masterPortfolio",
-        "url": "https://github.com/ashutosh1919/masterPortfolio",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/20843596?u=6deb5872cde2e3ab5bf5d48ece503bc8b5b0bcf6&v=4",
-          "login": "ashutosh1919",
-          "url": "https://github.com/ashutosh1919"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0NDA3ODgxNTk0",
-      "title": "Test PR to setup workflow",
-      "url": "https://github.com/ashutosh1919/masterPortfolio/pull/3",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/20843596?u=6deb5872cde2e3ab5bf5d48ece503bc8b5b0bcf6&v=4",
-        "url": "https://github.com/ashutosh1919",
-        "login": "ashutosh1919"
-      },
-      "createdAt": "2020-04-23T12:24:42Z",
-      "number": 3,
-      "changedFiles": 1,
-      "additions": 32,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "masterPortfolio",
-        "url": "https://github.com/ashutosh1919/masterPortfolio",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/20843596?u=6deb5872cde2e3ab5bf5d48ece503bc8b5b0bcf6&v=4",
-          "login": "ashutosh1919",
-          "url": "https://github.com/ashutosh1919"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0NDA3MDkwMTk5",
-      "title": "Added layer_test in addons and refactoring the code",
-      "url": "https://github.com/tensorflow/addons/pull/1715",
-      "state": "OPEN",
-      "mergedBy": null,
-      "createdAt": "2020-04-22T07:05:25Z",
-      "number": 1715,
-      "changedFiles": 1,
-      "additions": 72,
-      "deletions": 2,
-      "baseRepository": {
-        "name": "addons",
-        "url": "https://github.com/tensorflow/addons",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0NDA1NTk5NjAx",
-      "title": "Added Center loss",
-      "url": "https://github.com/tensorflow/addons/pull/1709",
-      "state": "OPEN",
-      "mergedBy": null,
-      "createdAt": "2020-04-19T03:52:25Z",
-      "number": 1709,
+      "createdAt": "2023-03-14T15:39:35Z",
+      "number": 1431,
       "changedFiles": 3,
-      "additions": 131,
-      "deletions": 1,
-      "baseRepository": {
-        "name": "addons",
-        "url": "https://github.com/tensorflow/addons",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0NDA1NDkyMDkw",
-      "title": "Fixed _save_model not working for batches in ModelCheckpoint Callback",
-      "url": "https://github.com/tensorflow/tensorflow/pull/38669",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2020-04-18T12:26:37Z",
-      "number": 38669,
-      "changedFiles": 1,
-      "additions": 15,
-      "deletions": 7,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0NDA1NDQ3MTk1",
-      "title": "Fixed average_model_checkpoint to have integer save_freq",
-      "url": "https://github.com/tensorflow/addons/pull/1702",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2020-04-18T05:20:34Z",
-      "number": 1702,
-      "changedFiles": 2,
-      "additions": 27,
-      "deletions": 1,
-      "baseRepository": {
-        "name": "addons",
-        "url": "https://github.com/tensorflow/addons",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0NDA1MTAzNjY3",
-      "title": "Added LossFunctionWrapper for losses and simplified code",
-      "url": "https://github.com/tensorflow/addons/pull/1688",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/11615393?u=9734b198bd7f7498157e95d48371c39e44b5002b&v=4",
-        "url": "https://github.com/WindQAQ",
-        "login": "WindQAQ"
-      },
-      "createdAt": "2020-04-17T12:27:37Z",
-      "number": 1688,
-      "changedFiles": 6,
-      "additions": 46,
-      "deletions": 90,
-      "baseRepository": {
-        "name": "addons",
-        "url": "https://github.com/tensorflow/addons",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0NDA0MTU2NDUy",
-      "title": "Added Multi Similarity loss",
-      "url": "https://github.com/tensorflow/addons/pull/1679",
-      "state": "OPEN",
-      "mergedBy": null,
-      "createdAt": "2020-04-16T06:59:30Z",
-      "number": 1679,
-      "changedFiles": 4,
-      "additions": 548,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "addons",
-        "url": "https://github.com/tensorflow/addons",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0NDAzNzQwMjM1",
-      "title": "Added demo of TQDMProgressBar() for evaluate()",
-      "url": "https://github.com/tensorflow/addons/pull/1674",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/16867893?u=afbda060ede35cddb90255a8295460f6a2395135&v=4",
-        "url": "https://github.com/shun-lin",
-        "login": "shun-lin"
-      },
-      "createdAt": "2020-04-15T12:51:00Z",
-      "number": 1674,
-      "changedFiles": 1,
-      "additions": 19,
-      "deletions": 1,
-      "baseRepository": {
-        "name": "addons",
-        "url": "https://github.com/tensorflow/addons",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0NDAzMTcxMjA3",
-      "title": "Added tests for AverageModelCheckpoint() callback",
-      "url": "https://github.com/tensorflow/addons/pull/1667",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/12891691?u=7f49c0407749c186e5df5e1cecb8b2daa47846e3&v=4",
-        "url": "https://github.com/gabrieldemarmiesse",
-        "login": "gabrieldemarmiesse"
-      },
-      "createdAt": "2020-04-14T13:04:03Z",
-      "number": 1667,
-      "changedFiles": 1,
-      "additions": 199,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "addons",
-        "url": "https://github.com/tensorflow/addons",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0NDAyOTg1MDU4",
-      "title": "Added code to call register_all() before loading model",
-      "url": "https://github.com/tensorflow/addons/pull/1665",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2020-04-14T05:58:52Z",
-      "number": 1665,
-      "changedFiles": 1,
-      "additions": 2,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "addons",
-        "url": "https://github.com/tensorflow/addons",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0NDAyNjMyMzcz",
-      "title": "Added code to pass appropriate logs to on_test|train_end() methods",
-      "url": "https://github.com/tensorflow/tensorflow/pull/38499",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/33434372?u=04b846f1363b0968dd000a320b908dd60b95d938&v=4",
-        "url": "https://github.com/tensorflow-copybara",
-        "login": "tensorflow-copybara"
-      },
-      "createdAt": "2020-04-13T12:57:08Z",
-      "number": 38499,
-      "changedFiles": 2,
-      "additions": 10,
-      "deletions": 6,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0NDAyMjg2MTk1",
-      "title": "Added TQDM Progressbar for evaluate()",
-      "url": "https://github.com/tensorflow/addons/pull/1649",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/12891691?u=7f49c0407749c186e5df5e1cecb8b2daa47846e3&v=4",
-        "url": "https://github.com/gabrieldemarmiesse",
-        "login": "gabrieldemarmiesse"
-      },
-      "createdAt": "2020-04-12T04:42:01Z",
-      "number": 1649,
-      "changedFiles": 2,
-      "additions": 102,
-      "deletions": 58,
-      "baseRepository": {
-        "name": "addons",
-        "url": "https://github.com/tensorflow/addons",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0NDAyMTg1MzUy",
-      "title": "Added new flexible loss named GeneralLoss",
-      "url": "https://github.com/tensorflow/addons/pull/1647",
-      "state": "OPEN",
-      "mergedBy": null,
-      "createdAt": "2020-04-11T12:44:29Z",
-      "number": 1647,
-      "changedFiles": 3,
-      "additions": 687,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "addons",
-        "url": "https://github.com/tensorflow/addons",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0NDAyMTM5OTM5",
-      "title": "Adding progress bar also while evaluating the model",
-      "url": "https://github.com/tensorflow/tensorflow/pull/38447",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2020-04-11T04:46:51Z",
-      "number": 38447,
-      "changedFiles": 1,
-      "additions": 3,
-      "deletions": 1,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0NDAxNzgxODEy",
-      "title": "Fixed broken links for post training quant and xla",
-      "url": "https://github.com/tensorflow/docs/pull/1535",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/47575114?u=14981fca962fe7d59cb7ab71cc53773edab7f494&v=4",
-        "url": "https://github.com/TensorFlow-Docs-Copybara",
-        "login": "TensorFlow-Docs-Copybara"
-      },
-      "createdAt": "2020-04-10T06:46:53Z",
-      "number": 1535,
-      "changedFiles": 1,
-      "additions": 2,
-      "deletions": 2,
-      "baseRepository": {
-        "name": "docs",
-        "url": "https://github.com/tensorflow/docs",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0NDAwMTA5MjQ0",
-      "title": "Fixed broken link for seo.js",
-      "url": "https://github.com/apollographql/gatsby-theme-apollo/pull/111",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1216917?u=ed1a893911759f92e030c88d764dd2b84a8ccb15&v=4",
-        "url": "https://github.com/trevorblades",
-        "login": "trevorblades"
-      },
-      "createdAt": "2020-04-07T08:09:48Z",
-      "number": 111,
-      "changedFiles": 1,
-      "additions": 1,
-      "deletions": 1,
-      "baseRepository": {
-        "name": "gatsby-theme-apollo",
-        "url": "https://github.com/apollographql/gatsby-theme-apollo",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/17189275?v=4",
-          "login": "apollographql",
-          "url": "https://github.com/apollographql"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzk5NTk4Mjk2",
-      "title": "Modified Social Card Design",
-      "url": "https://github.com/firecamp-io/firecamp-doc/pull/37",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5078921?u=d767ecc4f7897ef750ce123b35fb23ac3ced2589&v=4",
-        "url": "https://github.com/Nishchit14",
-        "login": "Nishchit14"
-      },
-      "createdAt": "2020-04-06T12:06:58Z",
-      "number": 37,
-      "changedFiles": 2,
-      "additions": 105,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "firecamp-doc",
-        "url": "https://github.com/firecamp-io/firecamp-doc",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/45025286?v=4",
-          "login": "firecamp-io",
-          "url": "https://github.com/firecamp-io"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzk5MDI1MDc3",
-      "title": "header-button.js component shadowed to show the correct link",
-      "url": "https://github.com/firecamp-io/firecamp-doc/pull/35",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5078921?u=d767ecc4f7897ef750ce123b35fb23ac3ced2589&v=4",
-        "url": "https://github.com/Nishchit14",
-        "login": "Nishchit14"
-      },
-      "createdAt": "2020-04-05T10:57:55Z",
-      "number": 35,
-      "changedFiles": 1,
-      "additions": 49,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "firecamp-doc",
-        "url": "https://github.com/firecamp-io/firecamp-doc",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/45025286?v=4",
-          "login": "firecamp-io",
-          "url": "https://github.com/firecamp-io"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzk4MDc0NjYy",
-      "title": "Added Basic Reveal Fade animations",
-      "url": "https://github.com/saadpasta/developerFolio/pull/76",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/48270786?u=dab5f6dc64923f646b354f47f52af65f44fd9e7e&v=4",
-        "url": "https://github.com/kartikcho",
-        "login": "kartikcho"
-      },
-      "createdAt": "2020-04-03T09:52:10Z",
-      "number": 76,
-      "changedFiles": 15,
-      "additions": 45,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "developerFolio",
-        "url": "https://github.com/saadpasta/developerFolio",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/23307811?u=eab46b153eef3f5183930e61898b462447af9219&v=4",
-          "login": "saadpasta",
-          "url": "https://github.com/saadpasta"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzk3OTQzMTk3",
-      "title": "Added basic animations",
-      "url": "https://github.com/saadpasta/developerFolio/pull/74",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2020-04-03T05:21:40Z",
-      "number": 74,
-      "changedFiles": 18,
-      "additions": 463,
-      "deletions": 295,
-      "baseRepository": {
-        "name": "developerFolio",
-        "url": "https://github.com/saadpasta/developerFolio",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/23307811?u=eab46b153eef3f5183930e61898b462447af9219&v=4",
-          "login": "saadpasta",
-          "url": "https://github.com/saadpasta"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzk3NDkxODM2",
-      "title": "Added doc for absolute import from gatsby eslint rules or other tools",
-      "url": "https://github.com/gatsbyjs/gatsby/pull/22750",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/15000607?u=96821f18af94d1574d81f3f50918fb51b595d2bf&v=4",
-        "url": "https://github.com/laurieontech",
-        "login": "laurieontech"
-      },
-      "createdAt": "2020-04-02T10:32:52Z",
-      "number": 22750,
-      "changedFiles": 1,
-      "additions": 13,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "gatsby",
-        "url": "https://github.com/gatsbyjs/gatsby",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/12551863?v=4",
-          "login": "gatsbyjs",
-          "url": "https://github.com/gatsbyjs"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzk2OTUwMDgy",
-      "title": "Corrected order of params of loss fn in custom_training.ipynb",
-      "url": "https://github.com/tensorflow/docs/pull/1528",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/47575114?u=14981fca962fe7d59cb7ab71cc53773edab7f494&v=4",
-        "url": "https://github.com/TensorFlow-Docs-Copybara",
-        "login": "TensorFlow-Docs-Copybara"
-      },
-      "createdAt": "2020-04-01T12:00:52Z",
-      "number": 1528,
-      "changedFiles": 1,
       "additions": 4,
-      "deletions": 4,
-      "baseRepository": {
-        "name": "docs",
-        "url": "https://github.com/tensorflow/docs",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzk0MDU1Njc1",
-      "title": "docs(accordion):  add ul wrapper for standalone panel",
-      "url": "https://github.com/uber/baseweb/pull/3119",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5317799?u=2f6807ffe87dc49ae9e07bdf0089affc75d67f3d&v=4",
-        "url": "https://github.com/chasestarr",
-        "login": "chasestarr"
-      },
-      "createdAt": "2020-03-26T09:36:30Z",
-      "number": 3119,
-      "changedFiles": 2,
-      "additions": 6,
-      "deletions": 2,
-      "baseRepository": {
-        "name": "baseweb",
-        "url": "https://github.com/uber/baseweb",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/538264?v=4",
-          "login": "uber",
-          "url": "https://github.com/uber"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzkzOTY1MDAz",
-      "title": "Added VariableV2 and VarHandleOp in python API of tesorflow",
-      "url": "https://github.com/tensorflow/tensorflow/pull/37925",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2020-03-26T05:27:07Z",
-      "number": 37925,
-      "changedFiles": 1,
-      "additions": 94,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzkzNDgxODcy",
-      "title": "Modified docstring for minlex",
-      "url": "https://github.com/sympy/sympy/pull/18949",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/90703?u=71efaf421eece4f1d4d342751045acdd15108c50&v=4",
-        "url": "https://github.com/smichr",
-        "login": "smichr"
-      },
-      "createdAt": "2020-03-25T09:39:40Z",
-      "number": 18949,
-      "changedFiles": 1,
-      "additions": 9,
-      "deletions": 6,
-      "baseRepository": {
-        "name": "sympy",
-        "url": "https://github.com/sympy/sympy",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/260832?v=4",
-          "login": "sympy",
-          "url": "https://github.com/sympy"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzkzNDU3NDQ2",
-      "title": "Added New book dao tests",
-      "url": "https://github.com/kiwix/kiwix-android/pull/1958",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2020-03-25T08:43:57Z",
-      "number": 1958,
-      "changedFiles": 1,
-      "additions": 90,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "kiwix-android",
-        "url": "https://github.com/kiwix/kiwix-android",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/826219?v=4",
-          "login": "kiwix",
-          "url": "https://github.com/kiwix"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzkyODI5NzM5",
-      "title": "Changed message for opening link in new tab dialog",
-      "url": "https://github.com/kiwix/kiwix-android/pull/1951",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/3358282?v=4",
-        "url": "https://github.com/macgills",
-        "login": "macgills"
-      },
-      "createdAt": "2020-03-24T07:46:29Z",
-      "number": 1951,
-      "changedFiles": 1,
-      "additions": 2,
-      "deletions": 2,
-      "baseRepository": {
-        "name": "kiwix-android",
-        "url": "https://github.com/kiwix/kiwix-android",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/826219?v=4",
-          "login": "kiwix",
-          "url": "https://github.com/kiwix"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzkyNzc5NTI3",
-      "title": "Add behavioral note to VariableV2 and VarhandleOp",
-      "url": "https://github.com/tensorflow/tensorflow/pull/37855",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2020-03-24T05:09:43Z",
-      "number": 37855,
-      "changedFiles": 2,
-      "additions": 7,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzkyNzY2NzIy",
-      "title": "Added example and description about numpy_function() in Dataset.map()",
-      "url": "https://github.com/tensorflow/tensorflow/pull/37853",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/33434372?u=04b846f1363b0968dd000a320b908dd60b95d938&v=4",
-        "url": "https://github.com/tensorflow-copybara",
-        "login": "tensorflow-copybara"
-      },
-      "createdAt": "2020-03-24T04:19:08Z",
-      "number": 37853,
-      "changedFiles": 1,
-      "additions": 17,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzkyNDAyOTI2",
-      "title": "Modified TensorScatterAdd to correctly specify examples for shape of tensor",
-      "url": "https://github.com/tensorflow/tensorflow/pull/37832",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/33434372?u=04b846f1363b0968dd000a320b908dd60b95d938&v=4",
-        "url": "https://github.com/tensorflow-copybara",
-        "login": "tensorflow-copybara"
-      },
-      "createdAt": "2020-03-23T13:58:48Z",
-      "number": 37832,
-      "changedFiles": 1,
-      "additions": 7,
-      "deletions": 6,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzkyMzA4MDUy",
-      "title": "Removed unnecessary examples for shape attribute which is not there in tensor_scatter_nd_add",
-      "url": "https://github.com/tensorflow/java/pull/35",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2020-03-23T10:51:46Z",
-      "number": 35,
-      "changedFiles": 1,
-      "additions": 7,
-      "deletions": 6,
-      "baseRepository": {
-        "name": "java",
-        "url": "https://github.com/tensorflow/java",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzkyMTcxNjYw",
-      "title": "Modified spacing and comments in interpreter code in order to show it in codelabs",
-      "url": "https://github.com/tensorflow/examples/pull/178",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/47573996?u=802a3f06345c20b7ec61bcd70779bbd88e6bc56b&v=4",
-        "url": "https://github.com/TensorFlow-Examples-Copybara",
-        "login": "TensorFlow-Examples-Copybara"
-      },
-      "createdAt": "2020-03-23T05:44:31Z",
-      "number": 178,
-      "changedFiles": 1,
-      "additions": 1,
-      "deletions": 3,
-      "baseRepository": {
-        "name": "examples",
-        "url": "https://github.com/tensorflow/examples",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzkyMTYxMjc3",
-      "title": "Added description of effect of regularization on validation and test",
-      "url": "https://github.com/tensorflow/tensorflow/pull/37816",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/33434372?u=04b846f1363b0968dd000a320b908dd60b95d938&v=4",
-        "url": "https://github.com/tensorflow-copybara",
-        "login": "tensorflow-copybara"
-      },
-      "createdAt": "2020-03-23T05:11:44Z",
-      "number": 37816,
-      "changedFiles": 1,
-      "additions": 6,
-      "deletions": 2,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzkxOTY4ODE2",
-      "title": "Modified expand_path in config_parser to add environment var for mypy_path",
-      "url": "https://github.com/python/mypy/pull/8574",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2020-03-22T07:43:55Z",
-      "number": 8574,
-      "changedFiles": 1,
-      "additions": 4,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "mypy",
-        "url": "https://github.com/python/mypy",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/1525981?v=4",
-          "login": "python",
-          "url": "https://github.com/python"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzkxOTYwMDI5",
-      "title": "Added example in the doc for TypeVar in using generic classes",
-      "url": "https://github.com/python/mypy/pull/8573",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2020-03-22T05:38:59Z",
-      "number": 8573,
-      "changedFiles": 1,
-      "additions": 38,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "mypy",
-        "url": "https://github.com/python/mypy",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/1525981?v=4",
-          "login": "python",
-          "url": "https://github.com/python"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzg4MTg3MTgx",
-      "title": " Added evaluation metric mean_absolute_relative_error",
-      "url": "https://github.com/scikit-learn/scikit-learn/pull/16689",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2020-03-14T06:43:13Z",
-      "number": 16689,
-      "changedFiles": 10,
-      "additions": 162,
-      "deletions": 5,
-      "baseRepository": {
-        "name": "scikit-learn",
-        "url": "https://github.com/scikit-learn/scikit-learn",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/365630?v=4",
-          "login": "scikit-learn",
-          "url": "https://github.com/scikit-learn"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzg4MTY2Nzc4",
-      "title": "Added preprocessing and corrected example of RGB images before feeding rgb_to_yub",
-      "url": "https://github.com/tensorflow/tensorflow/pull/37592",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/33434372?u=04b846f1363b0968dd000a320b908dd60b95d938&v=4",
-        "url": "https://github.com/tensorflow-copybara",
-        "login": "tensorflow-copybara"
-      },
-      "createdAt": "2020-03-14T05:28:38Z",
-      "number": 37592,
-      "changedFiles": 1,
-      "additions": 8,
-      "deletions": 8,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzg3ODA4OTcz",
-      "title": "Added pytype in tfds/core/lazy_imports_lib.py patch-9",
-      "url": "https://github.com/tensorflow/datasets/pull/1642",
-      "state": "OPEN",
-      "mergedBy": null,
-      "createdAt": "2020-03-13T14:32:36Z",
-      "number": 1642,
-      "changedFiles": 1,
-      "additions": 22,
-      "deletions": 20,
-      "baseRepository": {
-        "name": "datasets",
-        "url": "https://github.com/tensorflow/datasets",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzg3NzgyMjI5",
-      "title": "Added description for call() in tf.keras.layers.Layer",
-      "url": "https://github.com/tensorflow/tensorflow/pull/37574",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/33434372?u=04b846f1363b0968dd000a320b908dd60b95d938&v=4",
-        "url": "https://github.com/tensorflow-copybara",
-        "login": "tensorflow-copybara"
-      },
-      "createdAt": "2020-03-13T13:39:28Z",
-      "number": 37574,
-      "changedFiles": 1,
-      "additions": 6,
-      "deletions": 1,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzg3NjYwMDQz",
-      "title": "Added code for preprocessing of YUV images before feeding yuv_to_rgb",
-      "url": "https://github.com/tensorflow/tensorflow/pull/37565",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/33434372?u=04b846f1363b0968dd000a320b908dd60b95d938&v=4",
-        "url": "https://github.com/tensorflow-copybara",
-        "login": "tensorflow-copybara"
-      },
-      "createdAt": "2020-03-13T08:48:58Z",
-      "number": 37565,
-      "changedFiles": 1,
-      "additions": 25,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzg3MjU5MDU4",
-      "title": "Corrected order of parameters in keras WideDeepModel",
-      "url": "https://github.com/tensorflow/tensorflow/pull/37539",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/33434372?u=04b846f1363b0968dd000a320b908dd60b95d938&v=4",
-        "url": "https://github.com/tensorflow-copybara",
-        "login": "tensorflow-copybara"
-      },
-      "createdAt": "2020-03-12T13:57:32Z",
-      "number": 37539,
-      "changedFiles": 1,
-      "additions": 5,
-      "deletions": 5,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzg3MjUwMTU0",
-      "title": "Added doc and examples for tf.keras.losses.get",
-      "url": "https://github.com/tensorflow/tensorflow/pull/37538",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/33434372?u=04b846f1363b0968dd000a320b908dd60b95d938&v=4",
-        "url": "https://github.com/tensorflow-copybara",
-        "login": "tensorflow-copybara"
-      },
-      "createdAt": "2020-03-12T13:41:13Z",
-      "number": 37538,
-      "changedFiles": 1,
-      "additions": 21,
-      "deletions": 2,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzg3MTcxMDQy",
-      "title": "Fixed broken link for Bug & Performance issues",
-      "url": "https://github.com/tensorflow/community/pull/216",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/9475?v=4",
-        "url": "https://github.com/ewilderj",
-        "login": "ewilderj"
-      },
-      "createdAt": "2020-03-12T10:49:48Z",
-      "number": 216,
-      "changedFiles": 1,
-      "additions": 2,
-      "deletions": 1,
-      "baseRepository": {
-        "name": "community",
-        "url": "https://github.com/tensorflow/community",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzg3MTU0NDY5",
-      "title": " Added code and descriptions for complete beginners in overview.ipynb",
-      "url": "https://github.com/tensorflow/datasets/pull/1633",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2020-03-12T10:16:34Z",
-      "number": 1633,
-      "changedFiles": 1,
-      "additions": 28,
-      "deletions": 1,
-      "baseRepository": {
-        "name": "datasets",
-        "url": "https://github.com/tensorflow/datasets",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzg3MTA3NzU0",
-      "title": "Added example related to top_k parameter in tf.keras.metrics.Precision",
-      "url": "https://github.com/tensorflow/tensorflow/pull/37528",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/33434372?u=04b846f1363b0968dd000a320b908dd60b95d938&v=4",
-        "url": "https://github.com/tensorflow-copybara",
-        "login": "tensorflow-copybara"
-      },
-      "createdAt": "2020-03-12T08:34:26Z",
-      "number": 37528,
-      "changedFiles": 1,
-      "additions": 12,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzg0NjUzNjI3",
-      "title": "Added pytype in tfds/core/hashing.py patch-8",
-      "url": "https://github.com/tensorflow/datasets/pull/1592",
-      "state": "OPEN",
-      "mergedBy": null,
-      "createdAt": "2020-03-06T06:18:21Z",
-      "number": 1592,
-      "changedFiles": 1,
-      "additions": 6,
-      "deletions": 4,
-      "baseRepository": {
-        "name": "datasets",
-        "url": "https://github.com/tensorflow/datasets",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzg0NjQxMjUx",
-      "title": "Added pytype in tfds/core/file_format_adapter.py patch-7",
-      "url": "https://github.com/tensorflow/datasets/pull/1591",
-      "state": "OPEN",
-      "mergedBy": null,
-      "createdAt": "2020-03-06T05:27:59Z",
-      "number": 1591,
-      "changedFiles": 2,
-      "additions": 52,
-      "deletions": 19,
-      "baseRepository": {
-        "name": "datasets",
-        "url": "https://github.com/tensorflow/datasets",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzg0MDgxMzI2",
-      "title": "Added pytype in tfds/core/example_serializer.py patch-6",
-      "url": "https://github.com/tensorflow/datasets/pull/1578",
-      "state": "OPEN",
-      "mergedBy": null,
-      "createdAt": "2020-03-05T05:51:54Z",
-      "number": 1578,
-      "changedFiles": 2,
-      "additions": 31,
-      "deletions": 11,
-      "baseRepository": {
-        "name": "datasets",
-        "url": "https://github.com/tensorflow/datasets",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzg0MDY5Nzk5",
-      "title": "Added pytype in tfds/core/example_parser.py patch-5",
-      "url": "https://github.com/tensorflow/datasets/pull/1576",
-      "state": "OPEN",
-      "mergedBy": null,
-      "createdAt": "2020-03-05T05:06:18Z",
-      "number": 1576,
-      "changedFiles": 2,
-      "additions": 22,
       "deletions": 9,
       "baseRepository": {
-        "name": "datasets",
-        "url": "https://github.com/tensorflow/datasets",
+        "name": "piperun-yii",
+        "url": "https://github.com/crmpiperun/piperun-yii",
         "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
         }
       }
     },
     {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzgzNTkwMTcy",
-      "title": "Added pytype in tfds/core/dataset_utils.py patch-4",
-      "url": "https://github.com/tensorflow/datasets/pull/1570",
-      "state": "OPEN",
-      "mergedBy": null,
-      "createdAt": "2020-03-04T14:25:28Z",
-      "number": 1570,
-      "changedFiles": 2,
-      "additions": 42,
-      "deletions": 13,
-      "baseRepository": {
-        "name": "datasets",
-        "url": "https://github.com/tensorflow/datasets",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzgzNDQ4ODc1",
-      "title": "Added pytype in tfds/core/dataset_info.py patch-3",
-      "url": "https://github.com/tensorflow/datasets/pull/1569",
-      "state": "OPEN",
-      "mergedBy": null,
-      "createdAt": "2020-03-04T09:59:07Z",
-      "number": 1569,
-      "changedFiles": 1,
-      "additions": 77,
-      "deletions": 59,
-      "baseRepository": {
-        "name": "datasets",
-        "url": "https://github.com/tensorflow/datasets",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzgyNDY0ODAy",
-      "title": "Added pytype in tfds/core patch-2",
-      "url": "https://github.com/tensorflow/datasets/pull/1554",
-      "state": "OPEN",
-      "mergedBy": null,
-      "createdAt": "2020-03-02T15:58:16Z",
-      "number": 1554,
-      "changedFiles": 2,
-      "additions": 223,
-      "deletions": 106,
-      "baseRepository": {
-        "name": "datasets",
-        "url": "https://github.com/tensorflow/datasets",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzgyMTg2NjQx",
-      "title": "Added pytype in tfds/core patch-1",
-      "url": "https://github.com/tensorflow/datasets/pull/1550",
+      "id": "PR_kwDOHAJ-ps5LxmFm",
+      "title": "Feature:  ajustes necessários na tela principal dos grupos",
+      "url": "https://github.com/crmpiperun/piperun-solar/pull/55",
       "state": "MERGED",
       "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/46831603?v=4",
-        "url": "https://github.com/tfds-copybara",
-        "login": "tfds-copybara"
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
       },
-      "createdAt": "2020-03-02T05:42:03Z",
-      "number": 1550,
-      "changedFiles": 2,
-      "additions": 42,
-      "deletions": 8,
+      "createdAt": "2023-03-10T15:03:53Z",
+      "number": 55,
+      "changedFiles": 5,
+      "additions": 30,
+      "deletions": 19,
       "baseRepository": {
-        "name": "datasets",
-        "url": "https://github.com/tensorflow/datasets",
+        "name": "piperun-solar",
+        "url": "https://github.com/crmpiperun/piperun-solar",
         "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
         }
       }
     },
     {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzgxODU4Njg5",
-      "title": "Specifying about representative_datasets in TfLiteConverter",
-      "url": "https://github.com/tensorflow/tensorflow/pull/37192",
+      "id": "PR_kwDOFEZO685LsGRn",
+      "title": "Feature: adicionado o link do Digisac",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/120",
       "state": "MERGED",
       "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/33434372?u=04b846f1363b0968dd000a320b908dd60b95d938&v=4",
-        "url": "https://github.com/tensorflow-copybara",
-        "login": "tensorflow-copybara"
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
       },
-      "createdAt": "2020-02-29T14:28:26Z",
-      "number": 37192,
+      "createdAt": "2023-03-09T15:35:36Z",
+      "number": 120,
       "changedFiles": 2,
       "additions": 4,
       "deletions": 2,
       "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
         "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
         }
       }
     },
     {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzgxODU1NDYy",
-      "title": "Corrected the default value for name param in Nadam",
-      "url": "https://github.com/tensorflow/tensorflow/pull/37188",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2020-02-29T14:03:05Z",
-      "number": 37188,
-      "changedFiles": 1,
-      "additions": 1,
-      "deletions": 1,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzgxODE4Njg0",
-      "title": "Added code to insert tfds dir into sys.path",
-      "url": "https://github.com/tensorflow/datasets/pull/1545",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2020-02-29T08:38:18Z",
-      "number": 1545,
-      "changedFiles": 1,
-      "additions": 3,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "datasets",
-        "url": "https://github.com/tensorflow/datasets",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzc5MDE2MTEw",
-      "title": "Modified metric_utils.py to fix conflicts with floatx and float32",
-      "url": "https://github.com/tensorflow/tensorflow/pull/37020",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2020-02-24T14:20:44Z",
-      "number": 37020,
-      "changedFiles": 1,
-      "additions": 1,
-      "deletions": 1,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzc4OTUyODQ0",
-      "title": "Modified doc for specifically mentioning about saving optimizer",
-      "url": "https://github.com/tensorflow/docs/pull/1472",
+      "id": "PR_kwDOFEZO685LsB71",
+      "title": "Fix: Data de previsão de fechamento ajustada",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/119",
       "state": "MERGED",
       "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/47575114?u=14981fca962fe7d59cb7ab71cc53773edab7f494&v=4",
-        "url": "https://github.com/TensorFlow-Docs-Copybara",
-        "login": "TensorFlow-Docs-Copybara"
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
       },
-      "createdAt": "2020-02-24T11:59:40Z",
-      "number": 1472,
-      "changedFiles": 1,
-      "additions": 8,
-      "deletions": 8,
-      "baseRepository": {
-        "name": "docs",
-        "url": "https://github.com/tensorflow/docs",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzc4OTAxMDU0",
-      "title": "Added reduce_variance for RaggedTensor with extra optimization",
-      "url": "https://github.com/tensorflow/tensorflow/pull/37014",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/in/44061?v=4",
-        "url": "https://github.com/apps/copybara-service",
-        "login": "copybara-service"
-      },
-      "createdAt": "2020-02-24T09:59:46Z",
-      "number": 37014,
-      "changedFiles": 4,
-      "additions": 105,
-      "deletions": 2,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzc4NzExNjM2",
-      "title": "Added doc for all application models for decode_prediction() and preprocess_input()",
-      "url": "https://github.com/tensorflow/tensorflow/pull/36995",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/33434372?u=04b846f1363b0968dd000a320b908dd60b95d938&v=4",
-        "url": "https://github.com/tensorflow-copybara",
-        "login": "tensorflow-copybara"
-      },
-      "createdAt": "2020-02-23T14:27:24Z",
-      "number": 36995,
-      "changedFiles": 8,
-      "additions": 189,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzc4NzEwMjM0",
-      "title": "Added doc in inception_resnet_v2 for decode_prediction() and preprocess_input()",
-      "url": "https://github.com/tensorflow/tensorflow/pull/36994",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/33434372?u=04b846f1363b0968dd000a320b908dd60b95d938&v=4",
-        "url": "https://github.com/tensorflow-copybara",
-        "login": "tensorflow-copybara"
-      },
-      "createdAt": "2020-02-23T14:14:15Z",
-      "number": 36994,
-      "changedFiles": 1,
-      "additions": 25,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzc4NzA5MTM2",
-      "title": "Added doc in DenseNet for decode_prediction() and preprocess_input()",
-      "url": "https://github.com/tensorflow/tensorflow/pull/36993",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/33434372?u=04b846f1363b0968dd000a320b908dd60b95d938&v=4",
-        "url": "https://github.com/tensorflow-copybara",
-        "login": "tensorflow-copybara"
-      },
-      "createdAt": "2020-02-23T14:05:28Z",
-      "number": 36993,
-      "changedFiles": 1,
-      "additions": 25,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzc4NzA4NDAy",
-      "title": "Added doc in MobileNet for decode_predictions() and preprocess_input()",
-      "url": "https://github.com/tensorflow/tensorflow/pull/36992",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/33434372?u=04b846f1363b0968dd000a320b908dd60b95d938&v=4",
-        "url": "https://github.com/tensorflow-copybara",
-        "login": "tensorflow-copybara"
-      },
-      "createdAt": "2020-02-23T13:57:39Z",
-      "number": 36992,
-      "changedFiles": 1,
-      "additions": 25,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzc4NzAxMDM3",
-      "title": "Added example of from_tensors and from_tensor_slices",
-      "url": "https://github.com/tensorflow/tensorflow/pull/36989",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/33434372?u=04b846f1363b0968dd000a320b908dd60b95d938&v=4",
-        "url": "https://github.com/tensorflow-copybara",
-        "login": "tensorflow-copybara"
-      },
-      "createdAt": "2020-02-23T12:38:54Z",
-      "number": 36989,
+      "createdAt": "2023-03-09T15:23:35Z",
+      "number": 119,
       "changedFiles": 1,
       "additions": 10,
-      "deletions": 0,
+      "deletions": 8,
       "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
         "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
         }
       }
     },
     {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzc4MjA1MzIx",
-      "title": "Added doc corresponding to decode_prediction() and preprocess_input()",
-      "url": "https://github.com/tensorflow/tensorflow/pull/36951",
+      "id": "PR_kwDOFEZO685LruHW",
+      "title": "Fix: Erro ao perder ou ganhar uma oportunidade",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/118",
       "state": "MERGED",
       "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/33434372?u=04b846f1363b0968dd000a320b908dd60b95d938&v=4",
-        "url": "https://github.com/tensorflow-copybara",
-        "login": "tensorflow-copybara"
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
       },
-      "createdAt": "2020-02-21T10:14:44Z",
-      "number": 36951,
+      "createdAt": "2023-03-09T14:32:14Z",
+      "number": 118,
       "changedFiles": 1,
-      "additions": 22,
-      "deletions": 2,
+      "additions": 14,
+      "deletions": 6,
       "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
         "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
         }
       }
     },
     {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mzc4MTM3MjQ5",
-      "title": "Modifying keras.py to print the KeyError with new line \\n",
-      "url": "https://github.com/tensorflow/estimator/pull/51",
+      "id": "PR_kwDOFEZO685LmpbJ",
+      "title": "Feature: Alterando ordenação das notas da mais recente para mais velha ",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/117",
       "state": "MERGED",
       "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/323199?u=dd45e7615e210711761056afbfc44c8679d87a87&v=4",
-        "url": "https://github.com/mihaimaruseac",
-        "login": "mihaimaruseac"
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
       },
-      "createdAt": "2020-02-21T07:08:28Z",
-      "number": 51,
+      "createdAt": "2023-03-08T20:34:53Z",
+      "number": 117,
+      "changedFiles": 1,
+      "additions": 1,
+      "deletions": 1,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685LmUgA",
+      "title": "Fix: backup de mensagens funcionando",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/116",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-03-08T19:22:58Z",
+      "number": 116,
+      "changedFiles": 3,
+      "additions": 143,
+      "deletions": 112,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZOzs5Lg1y-",
+      "title": "Fix: adicionado o `beginTransaction` no serviço de duplicação de oportunidade",
+      "url": "https://github.com/crmpiperun/piperun-api/pull/1461",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5984110?u=b249a0b9916a2fa1086ca114bd0a6f457e358383&v=4",
+        "url": "https://github.com/hbranco",
+        "login": "hbranco"
+      },
+      "createdAt": "2023-03-07T20:22:42Z",
+      "number": 1461,
+      "changedFiles": 2,
+      "additions": 112,
+      "deletions": 101,
+      "baseRepository": {
+        "name": "piperun-api",
+        "url": "https://github.com/crmpiperun/piperun-api",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZOzs5LaPfL",
+      "title": "Fix: criação de atividades com o link da sala virtual",
+      "url": "https://github.com/crmpiperun/piperun-api/pull/1457",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5984110?u=b249a0b9916a2fa1086ca114bd0a6f457e358383&v=4",
+        "url": "https://github.com/hbranco",
+        "login": "hbranco"
+      },
+      "createdAt": "2023-03-06T21:01:39Z",
+      "number": 1457,
       "changedFiles": 2,
       "additions": 20,
       "deletions": 3,
       "baseRepository": {
-        "name": "estimator",
-        "url": "https://github.com/tensorflow/estimator",
+        "name": "piperun-api",
+        "url": "https://github.com/crmpiperun/piperun-api",
         "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
         }
       }
     },
     {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzcxMTc1NDAz",
-      "title": "Fix formatting of ops_version.md",
-      "url": "https://github.com/tensorflow/tensorflow/pull/36479",
+      "id": "PR_kwDOFEZOmM5LYMRj",
+      "title": "Fix: resolvendo problema de carregamento das propostas dentro da pessoa",
+      "url": "https://github.com/crmpiperun/piperun-yii/pull/1424",
       "state": "MERGED",
       "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/33434372?u=04b846f1363b0968dd000a320b908dd60b95d938&v=4",
-        "url": "https://github.com/tensorflow-copybara",
-        "login": "tensorflow-copybara"
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
       },
-      "createdAt": "2020-02-05T04:20:12Z",
-      "number": 36479,
-      "changedFiles": 1,
-      "additions": 3,
-      "deletions": 2,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzY5NTEwMjYz",
-      "title": "Gradient Doc Changed for v2",
-      "url": "https://github.com/tensorflow/tensorflow/pull/36365",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2020-01-31T10:21:07Z",
-      "number": 36365,
-      "changedFiles": 1,
-      "additions": 16,
-      "deletions": 2,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzY5NDg1MTI3",
-      "title": "embedding_lookup_sparse divide by zero fixed",
-      "url": "https://github.com/tensorflow/tensorflow/pull/36364",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/in/44061?v=4",
-        "url": "https://github.com/apps/copybara-service",
-        "login": "copybara-service"
-      },
-      "createdAt": "2020-01-31T09:20:35Z",
-      "number": 36364,
-      "changedFiles": 2,
-      "additions": 25,
-      "deletions": 2,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzY3MzEwNjA1",
-      "title": "Python version corrected in doc",
-      "url": "https://github.com/tensorflow/docs/pull/1435",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/47575114?u=14981fca962fe7d59cb7ab71cc53773edab7f494&v=4",
-        "url": "https://github.com/TensorFlow-Docs-Copybara",
-        "login": "TensorFlow-Docs-Copybara"
-      },
-      "createdAt": "2020-01-27T04:50:23Z",
-      "number": 1435,
-      "changedFiles": 2,
-      "additions": 2,
-      "deletions": 1,
-      "baseRepository": {
-        "name": "docs",
-        "url": "https://github.com/tensorflow/docs",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzY3MTMyNzEx",
-      "title": "Gradient doc changed to accurately show the returned params",
-      "url": "https://github.com/tensorflow/tensorflow/pull/36206",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/33434372?u=04b846f1363b0968dd000a320b908dd60b95d938&v=4",
-        "url": "https://github.com/tensorflow-copybara",
-        "login": "tensorflow-copybara"
-      },
-      "createdAt": "2020-01-25T16:49:54Z",
-      "number": 36206,
-      "changedFiles": 1,
-      "additions": 16,
-      "deletions": 2,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzY3MTI2MDk0",
-      "title": "Quantile Huber Loss to predict Specific Quantile Value",
-      "url": "https://github.com/tensorflow/tensorflow/pull/36204",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2020-01-25T15:24:48Z",
-      "number": 36204,
-      "changedFiles": 2,
-      "additions": 161,
-      "deletions": 1,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzYyOTY0NTc3",
-      "title": "CUDA and requirements",
-      "url": "https://github.com/NVlabs/stylegan/pull/11",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2020-01-15T05:32:01Z",
-      "number": 11,
-      "changedFiles": 2,
-      "additions": 127,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "stylegan",
-        "url": "https://github.com/NVlabs/stylegan",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/2695301?v=4",
-          "login": "NVlabs",
-          "url": "https://github.com/NVlabs"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzI0OTk2OTQ0",
-      "title": "PR4",
-      "url": "https://github.com/nischaypandey/HF1/pull/4",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/26094362?u=d320e78775be2cd716b0e941a49aef1f8859563c&v=4",
-        "url": "https://github.com/nischaypandey",
-        "login": "nischaypandey"
-      },
-      "createdAt": "2019-10-06T03:33:23Z",
-      "number": 4,
-      "changedFiles": 1,
-      "additions": 2,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "HF1",
-        "url": "https://github.com/nischaypandey/HF1",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/26094362?u=d320e78775be2cd716b0e941a49aef1f8859563c&v=4",
-          "login": "nischaypandey",
-          "url": "https://github.com/nischaypandey"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzI0OTk2ODgx",
-      "title": "PR3",
-      "url": "https://github.com/nischaypandey/HF1/pull/3",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/26094362?u=d320e78775be2cd716b0e941a49aef1f8859563c&v=4",
-        "url": "https://github.com/nischaypandey",
-        "login": "nischaypandey"
-      },
-      "createdAt": "2019-10-06T03:31:54Z",
-      "number": 3,
-      "changedFiles": 1,
-      "additions": 2,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "HF1",
-        "url": "https://github.com/nischaypandey/HF1",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/26094362?u=d320e78775be2cd716b0e941a49aef1f8859563c&v=4",
-          "login": "nischaypandey",
-          "url": "https://github.com/nischaypandey"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzI0OTk2Nzkw",
-      "title": "PR2",
-      "url": "https://github.com/nischaypandey/HF1/pull/2",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/26094362?u=d320e78775be2cd716b0e941a49aef1f8859563c&v=4",
-        "url": "https://github.com/nischaypandey",
-        "login": "nischaypandey"
-      },
-      "createdAt": "2019-10-06T03:30:15Z",
-      "number": 2,
-      "changedFiles": 1,
-      "additions": 2,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "HF1",
-        "url": "https://github.com/nischaypandey/HF1",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/26094362?u=d320e78775be2cd716b0e941a49aef1f8859563c&v=4",
-          "login": "nischaypandey",
-          "url": "https://github.com/nischaypandey"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzI0OTk2NzI1",
-      "title": "PR1",
-      "url": "https://github.com/nischaypandey/HF1/pull/1",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/26094362?u=d320e78775be2cd716b0e941a49aef1f8859563c&v=4",
-        "url": "https://github.com/nischaypandey",
-        "login": "nischaypandey"
-      },
-      "createdAt": "2019-10-06T03:28:47Z",
-      "number": 1,
-      "changedFiles": 1,
-      "additions": 2,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "HF1",
-        "url": "https://github.com/nischaypandey/HF1",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/26094362?u=d320e78775be2cd716b0e941a49aef1f8859563c&v=4",
-          "login": "nischaypandey",
-          "url": "https://github.com/nischaypandey"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzE5NTg0OTgz",
-      "title": "JSON Related errors are resolved and json files are compatible to json in python",
-      "url": "https://github.com/DataTurks-Engg/Entity-Recognition-In-Resumes-SpaCy/pull/17",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2019-09-20T07:00:46Z",
-      "number": 17,
-      "changedFiles": 6742,
-      "additions": 7423541,
-      "deletions": 228,
-      "baseRepository": {
-        "name": "Entity-Recognition-In-Resumes-SpaCy",
-        "url": "https://github.com/DataTurks-Engg/Entity-Recognition-In-Resumes-SpaCy",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/39724935?v=4",
-          "login": "DataTurks-Engg",
-          "url": "https://github.com/DataTurks-Engg"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzE4NjQyMzk5",
-      "title": "Added mean_absolute_percentage_error in metrics fixes #10708",
-      "url": "https://github.com/scikit-learn/scikit-learn/pull/15007",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/630936?u=b5970c1f09aabdac20bd07baa3dccfb424ec0d5d&v=4",
-        "url": "https://github.com/rth",
-        "login": "rth"
-      },
-      "createdAt": "2019-09-18T06:03:48Z",
-      "number": 15007,
-      "changedFiles": 10,
-      "additions": 207,
-      "deletions": 46,
-      "baseRepository": {
-        "name": "scikit-learn",
-        "url": "https://github.com/scikit-learn/scikit-learn",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/365630?v=4",
-          "login": "scikit-learn",
-          "url": "https://github.com/scikit-learn"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzE3MDI2OTg3",
-      "title": "Quantile Huber Loss to predict Specific Quantile Value",
-      "url": "https://github.com/tensorflow/tensorflow/pull/32473",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2019-09-12T18:11:26Z",
-      "number": 32473,
-      "changedFiles": 0,
-      "additions": 0,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzE3MDI0NjAx",
-      "title": "Quantile Huber Loss to predict Specific Quantile Value",
-      "url": "https://github.com/tensorflow/tensorflow/pull/32472",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2019-09-12T18:04:44Z",
-      "number": 32472,
-      "changedFiles": 4479,
-      "additions": 243601,
-      "deletions": 109886,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzE2NzQyNjUy",
-      "title": "Quantile Huber Loss to predict Specific Quantile Value",
-      "url": "https://github.com/tensorflow/tensorflow/pull/32455",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2019-09-12T06:00:10Z",
-      "number": 32455,
-      "changedFiles": 2,
-      "additions": 170,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "tensorflow",
-        "url": "https://github.com/tensorflow/tensorflow",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
-          "login": "tensorflow",
-          "url": "https://github.com/tensorflow"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzA1OTM4NTE2",
-      "title": "Closing bracket was missing",
-      "url": "https://github.com/netrack/keras-metrics/pull/43",
-      "state": "MERGED",
-      "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1778407?u=6403dc6c797b195dfd01e485afc8680ba3ef9972&v=4",
-        "url": "https://github.com/ybubnov",
-        "login": "ybubnov"
-      },
-      "createdAt": "2019-08-09T10:48:13Z",
-      "number": 43,
+      "createdAt": "2023-03-06T14:52:19Z",
+      "number": 1424,
       "changedFiles": 1,
       "additions": 1,
-      "deletions": 1,
+      "deletions": 3,
       "baseRepository": {
-        "name": "keras-metrics",
-        "url": "https://github.com/netrack/keras-metrics",
+        "name": "piperun-yii",
+        "url": "https://github.com/crmpiperun/piperun-yii",
         "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/10380772?v=4",
-          "login": "netrack",
-          "url": "https://github.com/netrack"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
         }
       }
     },
     {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzAzNDk3NjY0",
-      "title": "Issue Fix #6280",
-      "url": "https://github.com/fossasia/open-event-server/pull/6289",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2019-08-01T18:13:43Z",
-      "number": 6289,
+      "id": "PR_kwDOFEZO685LXcso",
+      "title": "Fix: resolvendo problema de oportunidades",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/115",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-03-06T13:00:53Z",
+      "number": 115,
       "changedFiles": 1,
       "additions": 6,
-      "deletions": 0,
+      "deletions": 4,
       "baseRepository": {
-        "name": "open-event-server",
-        "url": "https://github.com/fossasia/open-event-server",
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
         "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/6295529?v=4",
-          "login": "fossasia",
-          "url": "https://github.com/fossasia"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
         }
       }
     },
     {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzAzNDcwNzYz",
-      "title": "check integration default check",
-      "url": "https://github.com/fossasia/open-event-server/pull/6288",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2019-08-01T16:51:30Z",
-      "number": 6288,
-      "changedFiles": 2,
-      "additions": 2,
-      "deletions": 1,
-      "baseRepository": {
-        "name": "open-event-server",
-        "url": "https://github.com/fossasia/open-event-server",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/6295529?v=4",
-          "login": "fossasia",
-          "url": "https://github.com/fossasia"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzAxNDAwNjgx",
-      "title": "Replaced Depricated tf.contrib.deprecated.scalar_summary with tf.compat.v1.summary.scalar",
-      "url": "https://github.com/google/mentornet/pull/8",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2019-07-26T05:29:39Z",
-      "number": 8,
-      "changedFiles": 2,
-      "additions": 3,
-      "deletions": 2,
-      "baseRepository": {
-        "name": "mentornet",
-        "url": "https://github.com/google/mentornet",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/1342004?v=4",
-          "login": "google",
-          "url": "https://github.com/google"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzAxMzk5NTg5",
-      "title": "Comments",
-      "url": "https://github.com/ashutosh1919/mentornet/pull/1",
+      "id": "PR_kwDOHAJ-ps5LQFXn",
+      "title": "Fix: Resolvido problema de loading infinito quando usuario clicasse em cancelar no setup",
+      "url": "https://github.com/crmpiperun/piperun-solar/pull/54",
       "state": "MERGED",
       "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/20843596?u=6deb5872cde2e3ab5bf5d48ece503bc8b5b0bcf6&v=4",
-        "url": "https://github.com/ashutosh1919",
-        "login": "ashutosh1919"
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
       },
-      "createdAt": "2019-07-26T05:23:10Z",
-      "number": 1,
+      "createdAt": "2023-03-03T19:04:36Z",
+      "number": 54,
+      "changedFiles": 1,
+      "additions": 133,
+      "deletions": 125,
+      "baseRepository": {
+        "name": "piperun-solar",
+        "url": "https://github.com/crmpiperun/piperun-solar",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOHAJ-ps5LPNLv",
+      "title": "Feature: Tensão de fornecimento com valor de 220 por padrão",
+      "url": "https://github.com/crmpiperun/piperun-solar/pull/53",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2023-03-03T15:39:28Z",
+      "number": 53,
+      "changedFiles": 26,
+      "additions": 174,
+      "deletions": 100,
+      "baseRepository": {
+        "name": "piperun-solar",
+        "url": "https://github.com/crmpiperun/piperun-solar",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685LOMng",
+      "title": "Feature: Adicionado o action do ESlint",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/114",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-03-03T12:35:27Z",
+      "number": 114,
+      "changedFiles": 1,
+      "additions": 29,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOHAJ-ps5LDypK",
+      "title": "Feature: extensão rodar no localhost",
+      "url": "https://github.com/crmpiperun/piperun-solar/pull/52",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2023-03-01T18:51:08Z",
+      "number": 52,
+      "changedFiles": 25,
+      "additions": 143,
+      "deletions": 98,
+      "baseRepository": {
+        "name": "piperun-solar",
+        "url": "https://github.com/crmpiperun/piperun-solar",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOHAJ-ps5K941g",
+      "title": "Fix: Duplicação de campos customizados",
+      "url": "https://github.com/crmpiperun/piperun-solar/pull/51",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2023-02-28T20:17:31Z",
+      "number": 51,
+      "changedFiles": 19,
+      "additions": 642,
+      "deletions": 615,
+      "baseRepository": {
+        "name": "piperun-solar",
+        "url": "https://github.com/crmpiperun/piperun-solar",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685KpDd7",
+      "title": "Feature: Informar erro ao usuário no backup de audio",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/113",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-02-23T21:01:08Z",
+      "number": 113,
+      "changedFiles": 1,
+      "additions": 57,
+      "deletions": 15,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685Ko_fD",
+      "title": "Feature: Trazer as oportunidades que estão como envolvidos",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/112",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-02-23T20:44:59Z",
+      "number": 112,
+      "changedFiles": 1,
+      "additions": 7,
+      "deletions": 4,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685Kovy8",
+      "title": "Feature: Criando oportunidade e empresa na criação de contato",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/111",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-02-23T19:42:11Z",
+      "number": 111,
+      "changedFiles": 9,
+      "additions": 499,
+      "deletions": 120,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685KP3tf",
+      "title": "Fix: Resolvido o problema de quebra de tela no chat do Gmail",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/110",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-02-17T20:20:24Z",
+      "number": 110,
+      "changedFiles": 3,
+      "additions": 4,
+      "deletions": 3,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685KPVZu",
+      "title": "Refactor: `ESLint` configurado para o padrão da organização",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/108",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-02-17T17:57:15Z",
+      "number": 108,
+      "changedFiles": 174,
+      "additions": 24658,
+      "deletions": 23144,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685KKJ2J",
+      "title": "Fix: arrumado o problema dos campos customizados na edição da oportunidade",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/107",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-02-16T19:03:23Z",
+      "number": 107,
       "changedFiles": 1,
       "additions": 1,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "mentornet",
-        "url": "https://github.com/ashutosh1919/mentornet",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/20843596?u=6deb5872cde2e3ab5bf5d48ece503bc8b5b0bcf6&v=4",
-          "login": "ashutosh1919",
-          "url": "https://github.com/ashutosh1919"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzAxMTE4NDY2",
-      "title": "Removed Unnecessary imports",
-      "url": "https://github.com/C-Aniruddh/DeepConversation/pull/1",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2019-07-25T12:21:04Z",
-      "number": 1,
-      "changedFiles": 1,
-      "additions": 0,
-      "deletions": 2,
-      "baseRepository": {
-        "name": "DeepConversation",
-        "url": "https://github.com/C-Aniruddh/DeepConversation",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/6713004?u=805b5777ff6b00f95e9aecf1f848622eeec84ff9&v=4",
-          "login": "C-Aniruddh",
-          "url": "https://github.com/C-Aniruddh"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzAxMDg1Mzc5",
-      "title": "Removed Unnecessary import",
-      "url": "https://github.com/facebook/FAI-PEP/pull/326",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2019-07-25T10:42:49Z",
-      "number": 326,
-      "changedFiles": 1,
-      "additions": 0,
       "deletions": 1,
       "baseRepository": {
-        "name": "FAI-PEP",
-        "url": "https://github.com/facebook/FAI-PEP",
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
         "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/69631?v=4",
-          "login": "facebook",
-          "url": "https://github.com/facebook"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
         }
       }
     },
     {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzAxMDY1ODY4",
-      "title": "Replaced Depricated tf.contrib.deprecated.scalar_summary with tf.compat.v1.summary.scalar",
-      "url": "https://github.com/google/mentornet/pull/7",
+      "id": "PR_kwDOFEZO685JqIOb",
+      "title": "Feature: Atualizado algumas libs que estavam na alpha e implementado o vuelidade",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/105",
       "state": "MERGED",
       "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/13424689?u=5a623978c86d2ffb6f5c46764cf57e71c5ced884&v=4",
-        "url": "https://github.com/roadjiang",
-        "login": "roadjiang"
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
       },
-      "createdAt": "2019-07-25T09:48:38Z",
-      "number": 7,
-      "changedFiles": 2,
-      "additions": 3,
-      "deletions": 2,
+      "createdAt": "2023-02-09T21:31:25Z",
+      "number": 105,
+      "changedFiles": 36,
+      "additions": 719,
+      "deletions": 648,
       "baseRepository": {
-        "name": "mentornet",
-        "url": "https://github.com/google/mentornet",
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
         "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/1342004?v=4",
-          "login": "google",
-          "url": "https://github.com/google"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
         }
       }
     },
     {
-      "id": "MDExOlB1bGxSZXF1ZXN0MzAxMDA1NDA3",
-      "title": "Replaced Depricated tf.contrib.deprecated.scalar_summary with tf.compat.v1.summary.scalar",
-      "url": "https://github.com/google/mentornet/pull/6",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2019-07-25T06:48:42Z",
-      "number": 6,
+      "id": "PR_kwDOFEZO685JeBY_",
+      "title": "Refactor: Instalado Lodash e refatorado muito código",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/102",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-02-07T21:23:34Z",
+      "number": 102,
+      "changedFiles": 26,
+      "additions": 800,
+      "deletions": 2815,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685JbybK",
+      "title": "Fix: Ajustado o bug do componente multiselect",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/101",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-02-07T13:50:27Z",
+      "number": 101,
+      "changedFiles": 9,
+      "additions": 129,
+      "deletions": 48,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685JPQSs",
+      "title": "Fix: Resolvido o `undefined` no backup de audios e mensagens",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/100",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-02-03T21:47:18Z",
+      "number": 100,
+      "changedFiles": 7,
+      "additions": 172,
+      "deletions": 22,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685JOmzz",
+      "title": "Refactor: Requisições separadas do aquivo api.js e colocadas dentro de service",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/99",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-02-03T19:16:50Z",
+      "number": 99,
+      "changedFiles": 64,
+      "additions": 3572,
+      "deletions": 3722,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685Itr0V",
+      "title": "Refactor: Implementing POO",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/93",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-01-27T21:27:44Z",
+      "number": 93,
+      "changedFiles": 90,
+      "additions": 346,
+      "deletions": 2046,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685IoAqm",
+      "title": "Feature: Sistema de estado na extensão",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/92",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-01-26T21:13:44Z",
+      "number": 92,
+      "changedFiles": 26,
+      "additions": 158,
+      "deletions": 92,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685ImOJ9",
+      "title": "Feature: anexar o link do audio na nota enviada",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/91",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-01-26T14:46:22Z",
+      "number": 91,
+      "changedFiles": 2,
+      "additions": 55,
+      "deletions": 21,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685IiTVH",
+      "title": "Feature: Nome dos audios enviados ao pipe resolvido",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/88",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-01-25T18:13:56Z",
+      "number": 88,
+      "changedFiles": 2,
+      "additions": 32,
+      "deletions": 28,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685IhprM",
+      "title": "Feature: Possibilidade de filtrar as mensagens no backup",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/86",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-01-25T15:59:16Z",
+      "number": 86,
+      "changedFiles": 36,
+      "additions": 427,
+      "deletions": 583,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685IXY70",
+      "title": "Feature: possibilidade de adicionar a agenda da pessoa",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/82",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-01-23T21:08:30Z",
+      "number": 82,
+      "changedFiles": 3,
+      "additions": 83,
+      "deletions": 12,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685IW4ba",
+      "title": "Fix: Problemas ao enviar email com outro SMTP configurado",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/81",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-01-23T19:51:50Z",
+      "number": 81,
+      "changedFiles": 2,
+      "additions": 5,
+      "deletions": 63,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685HWnDK",
+      "title": "Feature: backup dos audios do whatsapp na extensão",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/79",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-01-13T18:28:51Z",
+      "number": 79,
+      "changedFiles": 53,
+      "additions": 1142,
+      "deletions": 974,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685HAPJH",
+      "title": "Feature/extension structure",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/76",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2023-01-09T18:26:59Z",
+      "number": 76,
+      "changedFiles": 8,
+      "additions": 86,
+      "deletions": 46,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685GKH09",
+      "title": "refactor: alter files problems",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/72",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2022-12-24T12:37:33Z",
+      "number": 72,
+      "changedFiles": 27,
+      "additions": 303,
+      "deletions": 221,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685FMw3a",
+      "title": "feat: implements digisac",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/70",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2022-12-12T14:26:26Z",
+      "number": 70,
+      "changedFiles": 5,
+      "additions": 10,
+      "deletions": 6,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685Eo_6y",
+      "title": "Feature/extension structure",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/68",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2022-12-07T13:37:58Z",
+      "number": 68,
+      "changedFiles": 6,
+      "additions": 275,
+      "deletions": 198,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685BgWl4",
+      "title": "fix: resolve code7 integration",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/62",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2022-10-25T14:32:16Z",
+      "number": 62,
+      "changedFiles": 19,
+      "additions": 986,
+      "deletions": 8,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO685Bf4Kn",
+      "title": "fix: resolve problem with create contact",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/60",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1386782?u=a3b2b01d574ebd1d8317d64b9c428b0bafb90f66&v=4",
+        "url": "https://github.com/tonybolzan",
+        "login": "tonybolzan"
+      },
+      "createdAt": "2022-10-25T13:00:00Z",
+      "number": 60,
+      "changedFiles": 3,
+      "additions": 4,
+      "deletions": 4,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOHAJ-ps5A16Nn",
+      "title": "feat: last complementary data and funding to put form",
+      "url": "https://github.com/crmpiperun/piperun-solar/pull/31",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2022-10-14T20:33:48Z",
+      "number": 31,
+      "changedFiles": 13,
+      "additions": 478,
+      "deletions": 148,
+      "baseRepository": {
+        "name": "piperun-solar",
+        "url": "https://github.com/crmpiperun/piperun-solar",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOHAJ-ps5Ax55I",
+      "title": "Feature/typescript",
+      "url": "https://github.com/crmpiperun/piperun-solar/pull/26",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2022-10-14T01:38:52Z",
+      "number": 26,
+      "changedFiles": 13,
+      "additions": 382,
+      "deletions": 154,
+      "baseRepository": {
+        "name": "piperun-solar",
+        "url": "https://github.com/crmpiperun/piperun-solar",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOHAJ-ps5AmiVr",
+      "title": "feat: setupExtension complete",
+      "url": "https://github.com/crmpiperun/piperun-solar/pull/17",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2022-10-11T21:19:21Z",
+      "number": 17,
+      "changedFiles": 12,
+      "additions": 680,
+      "deletions": 105,
+      "baseRepository": {
+        "name": "piperun-solar",
+        "url": "https://github.com/crmpiperun/piperun-solar",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOHAJ-ps5Afmh1",
+      "title": "Feature/typescript",
+      "url": "https://github.com/crmpiperun/piperun-solar/pull/16",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2022-10-10T13:13:47Z",
+      "number": 16,
+      "changedFiles": 42,
+      "additions": 218816,
+      "deletions": 9951,
+      "baseRepository": {
+        "name": "piperun-solar",
+        "url": "https://github.com/crmpiperun/piperun-solar",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO684_tCUd",
+      "title": "Feature/extension structure",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/52",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2022-09-27T15:07:52Z",
+      "number": 52,
+      "changedFiles": 6,
+      "additions": 107,
+      "deletions": 85,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO684_cM05",
+      "title": "Feature/extension structure",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/48",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2022-09-22T15:49:38Z",
+      "number": 48,
+      "changedFiles": 10,
+      "additions": 132,
+      "deletions": 21,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO684_RoP5",
+      "title": "fix: resolve container width in 5hub",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/46",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2022-09-20T13:23:26Z",
+      "number": 46,
+      "changedFiles": 3,
+      "additions": 10,
+      "deletions": 5,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO684_B3YD",
+      "title": "refactor: alter version",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/43",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
+      },
+      "createdAt": "2022-09-15T14:08:49Z",
+      "number": 43,
       "changedFiles": 2,
       "additions": 2,
       "deletions": 2,
       "baseRepository": {
-        "name": "mentornet",
-        "url": "https://github.com/google/mentornet",
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
         "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/1342004?v=4",
-          "login": "google",
-          "url": "https://github.com/google"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
         }
       }
     },
     {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mjk5NjIwNDQx",
-      "title": "Quantile Huber Loss to predict Specific Quantile Value",
-      "url": "https://github.com/keras-team/keras/pull/13129",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2019-07-21T08:44:09Z",
-      "number": 13129,
-      "changedFiles": 7,
-      "additions": 133,
-      "deletions": 70,
-      "baseRepository": {
-        "name": "keras",
-        "url": "https://github.com/keras-team/keras",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/34455048?v=4",
-          "login": "keras-team",
-          "url": "https://github.com/keras-team"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mjk3MzIzMjcz",
-      "title": "Huber Loss Function for both kind of behavior. ",
-      "url": "https://github.com/keras-team/keras/pull/13104",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2019-07-13T15:14:42Z",
-      "number": 13104,
-      "changedFiles": 2,
-      "additions": 22,
-      "deletions": 0,
-      "baseRepository": {
-        "name": "keras",
-        "url": "https://github.com/keras-team/keras",
-        "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/34455048?v=4",
-          "login": "keras-team",
-          "url": "https://github.com/keras-team"
-        }
-      }
-    },
-    {
-      "id": "MDExOlB1bGxSZXF1ZXN0Mjg4NTMyMzQz",
-      "title": "RC Details",
-      "url": "https://github.com/abhinavhinger12/ala/pull/2",
+      "id": "PR_kwDOFEZO684-8aDI",
+      "title": "fix: alter 5hub name url",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/42",
       "state": "MERGED",
       "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/20843596?u=6deb5872cde2e3ab5bf5d48ece503bc8b5b0bcf6&v=4",
-        "url": "https://github.com/ashutosh1919",
-        "login": "ashutosh1919"
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11746645?u=295740302badbee14e951011f79b460dfd732292&v=4",
+        "url": "https://github.com/pharruda",
+        "login": "pharruda"
       },
-      "createdAt": "2019-06-15T05:19:37Z",
-      "number": 2,
-      "changedFiles": 3,
-      "additions": 555,
-      "deletions": 0,
+      "createdAt": "2022-09-14T13:07:38Z",
+      "number": 42,
+      "changedFiles": 4,
+      "additions": 6,
+      "deletions": 6,
       "baseRepository": {
-        "name": "ala",
-        "url": "https://github.com/abhinavhinger12/ala",
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
         "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/4638215?u=9c8d81f075a4206c9ce6386e7a97babce38c1037&v=4",
-          "login": "abhinavhinger12",
-          "url": "https://github.com/abhinavhinger12"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
         }
       }
     },
     {
-      "id": "MDExOlB1bGxSZXF1ZXN0MjQzMzQxOTg5",
-      "title": "Face Verification and Recognition",
-      "url": "https://github.com/trekhleb/homemade-machine-learning/pull/14",
-      "state": "CLOSED",
-      "mergedBy": null,
-      "createdAt": "2019-01-09T13:56:53Z",
+      "id": "PR_kwDOFEZO68486iQz",
+      "title": "feat: sort lost reasons alphabetically",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/34",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1386782?u=a3b2b01d574ebd1d8317d64b9c428b0bafb90f66&v=4",
+        "url": "https://github.com/tonybolzan",
+        "login": "tonybolzan"
+      },
+      "createdAt": "2022-08-09T21:02:59Z",
+      "number": 34,
+      "changedFiles": 20,
+      "additions": 475,
+      "deletions": 24,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO6848hE1W",
+      "title": "feat: new integration chatcorp",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/33",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1386782?u=a3b2b01d574ebd1d8317d64b9c428b0bafb90f66&v=4",
+        "url": "https://github.com/tonybolzan",
+        "login": "tonybolzan"
+      },
+      "createdAt": "2022-08-02T16:01:55Z",
+      "number": 33,
+      "changedFiles": 8,
+      "additions": 244,
+      "deletions": 6,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO68473JzY",
+      "title": "feat: integration kinbox",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/30",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1386782?u=a3b2b01d574ebd1d8317d64b9c428b0bafb90f66&v=4",
+        "url": "https://github.com/tonybolzan",
+        "login": "tonybolzan"
+      },
+      "createdAt": "2022-07-21T14:51:31Z",
+      "number": 30,
+      "changedFiles": 9,
+      "additions": 319,
+      "deletions": 8,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO6846By7P",
+      "title": "Feature/extension structure",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/23",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1386782?u=a3b2b01d574ebd1d8317d64b9c428b0bafb90f66&v=4",
+        "url": "https://github.com/tonybolzan",
+        "login": "tonybolzan"
+      },
+      "createdAt": "2022-06-21T13:03:23Z",
+      "number": 23,
+      "changedFiles": 12,
+      "additions": 245,
+      "deletions": 15,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO6845ocsY",
+      "title": "fix: resolve native",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/21",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1386782?u=a3b2b01d574ebd1d8317d64b9c428b0bafb90f66&v=4",
+        "url": "https://github.com/tonybolzan",
+        "login": "tonybolzan"
+      },
+      "createdAt": "2022-06-14T13:01:13Z",
+      "number": 21,
+      "changedFiles": 4,
+      "additions": 6,
+      "deletions": 6,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO6845Y5bA",
+      "title": "Feature/extension structure",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/18",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1386782?u=a3b2b01d574ebd1d8317d64b9c428b0bafb90f66&v=4",
+        "url": "https://github.com/tonybolzan",
+        "login": "tonybolzan"
+      },
+      "createdAt": "2022-06-09T12:44:01Z",
+      "number": 18,
+      "changedFiles": 5,
+      "additions": 4,
+      "deletions": 5,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO6844H8Tl",
+      "title": "refactor: refactor datasales file",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/14",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1386782?u=a3b2b01d574ebd1d8317d64b9c428b0bafb90f66&v=4",
+        "url": "https://github.com/tonybolzan",
+        "login": "tonybolzan"
+      },
+      "createdAt": "2022-05-19T14:08:19Z",
       "number": 14,
-      "changedFiles": 268,
-      "additions": 1419,
+      "changedFiles": 5,
+      "additions": 97,
+      "deletions": 11,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO6843Sahf",
+      "title": "feat: implementing cache control",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/10",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1386782?u=a3b2b01d574ebd1d8317d64b9c428b0bafb90f66&v=4",
+        "url": "https://github.com/tonybolzan",
+        "login": "tonybolzan"
+      },
+      "createdAt": "2022-05-04T12:38:26Z",
+      "number": 10,
+      "changedFiles": 1,
+      "additions": 14,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO6843LLwM",
+      "title": "Feature/extension structure",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/9",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1386782?u=a3b2b01d574ebd1d8317d64b9c428b0bafb90f66&v=4",
+        "url": "https://github.com/tonybolzan",
+        "login": "tonybolzan"
+      },
+      "createdAt": "2022-05-02T15:29:25Z",
+      "number": 9,
+      "changedFiles": 38,
+      "additions": 894,
+      "deletions": 136,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO6840mnjl",
+      "title": "Feature/extension structure",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/8",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2022-03-17T15:07:52Z",
+      "number": 8,
+      "changedFiles": 84,
+      "additions": 2172,
+      "deletions": 34355,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFEZO684wd_il",
+      "title": "Feature/extension structure",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/7",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2022-01-03T14:02:27Z",
+      "number": 7,
+      "changedFiles": 55,
+      "additions": 22917,
+      "deletions": 1118,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0Njc1NTMxMDMz",
+      "title": "Feature/extension structure",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/6",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2021-06-22T15:28:11Z",
+      "number": 6,
+      "changedFiles": 38,
+      "additions": 19432,
+      "deletions": 306,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NjQ3OTMzNjc1",
+      "title": "Feature/extension structure",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/5",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2021-05-19T18:26:50Z",
+      "number": 5,
+      "changedFiles": 35,
+      "additions": 1689,
+      "deletions": 56,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NjE0NjkyMTc2",
+      "title": "Version 1.0.37",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/4",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2021-04-13T19:00:48Z",
+      "number": 4,
+      "changedFiles": 139,
+      "additions": 2870,
+      "deletions": 1299,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTg1Nzg3MTE4",
+      "title": "Feature/extension structure",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/3",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2021-03-05T18:06:31Z",
+      "number": 3,
+      "changedFiles": 80,
+      "additions": 6703,
+      "deletions": 2857,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTgxMDYwNzg3",
+      "title": "Version 1.0.25",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/2",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2021-02-26T19:06:36Z",
+      "number": 2,
+      "changedFiles": 20,
+      "additions": 1261,
+      "deletions": 142,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTc2Njc4NTE3",
+      "title": "version 1.0.19",
+      "url": "https://github.com/crmpiperun/piperun-max/pull/1",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2021-02-19T19:46:48Z",
+      "number": 1,
+      "changedFiles": 38,
+      "additions": 3399,
+      "deletions": 559,
+      "baseRepository": {
+        "name": "piperun-max",
+        "url": "https://github.com/crmpiperun/piperun-max",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "login": "crmpiperun",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTMwNDkwNDI1",
+      "title": "Feature/ajustes",
+      "url": "https://github.com/andersoncaparroz/domsoftbr/pull/3",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-12-01T18:23:40Z",
+      "number": 3,
+      "changedFiles": 2,
+      "additions": 4,
+      "deletions": 4,
+      "baseRepository": {
+        "name": "domsoftbr",
+        "url": "https://github.com/andersoncaparroz/domsoftbr",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/27814533?u=ca01bef22db33f3d0e9eccd46ab25de793bc9b34&v=4",
+          "login": "andersoncaparroz",
+          "url": "https://github.com/andersoncaparroz"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTAzNzM2OTEy",
+      "title": "Adicionando +55",
+      "url": "https://github.com/andersoncaparroz/domsoftbr/pull/2",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-10-15T01:04:49Z",
+      "number": 2,
+      "changedFiles": 1,
+      "additions": 2,
+      "deletions": 2,
+      "baseRepository": {
+        "name": "domsoftbr",
+        "url": "https://github.com/andersoncaparroz/domsoftbr",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/27814533?u=ca01bef22db33f3d0e9eccd46ab25de793bc9b34&v=4",
+          "login": "andersoncaparroz",
+          "url": "https://github.com/andersoncaparroz"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTAzNzM1MzY1",
+      "title": "Feature/ajustes",
+      "url": "https://github.com/andersoncaparroz/domsoftbr/pull/1",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-10-15T00:59:20Z",
+      "number": 1,
+      "changedFiles": 8,
+      "additions": 14196,
+      "deletions": 291,
+      "baseRepository": {
+        "name": "domsoftbr",
+        "url": "https://github.com/andersoncaparroz/domsoftbr",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/27814533?u=ca01bef22db33f3d0e9eccd46ab25de793bc9b34&v=4",
+          "login": "andersoncaparroz",
+          "url": "https://github.com/andersoncaparroz"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDU3MjQyMTEx",
+      "title": "Arrumando erros de rotas",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/240",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+        "url": "https://github.com/Gabrielpatrola",
+        "login": "Gabrielpatrola"
+      },
+      "createdAt": "2020-07-27T15:36:27Z",
+      "number": 240,
+      "changedFiles": 12,
+      "additions": 643,
+      "deletions": 65,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDQ4ODk5NzYx",
+      "title": "Feature/juninho dev",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/237",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-07-14T13:59:30Z",
+      "number": 237,
+      "changedFiles": 39,
+      "additions": 2514,
+      "deletions": 869,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDQ4MzMyMzEy",
+      "title": "Cobranca de assinatura 3 dias depois",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/236",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-07-13T15:34:03Z",
+      "number": 236,
+      "changedFiles": 7,
+      "additions": 174,
+      "deletions": 5,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDQ3NjE0Mjg2",
+      "title": "TTirando plano: de assinatura",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/235",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-07-10T19:45:01Z",
+      "number": 235,
+      "changedFiles": 1,
+      "additions": 1,
       "deletions": 1,
       "baseRepository": {
-        "name": "homemade-machine-learning",
-        "url": "https://github.com/trekhleb/homemade-machine-learning",
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
         "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/3000285?u=1e62782f227030b78b7aa78cbbcab5f8a24e658a&v=4",
-          "login": "trekhleb",
-          "url": "https://github.com/trekhleb"
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDQ3NjEyMjgy",
+      "title": "Tudo pronto",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/234",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-07-10T19:39:29Z",
+      "number": 234,
+      "changedFiles": 45,
+      "additions": 1035,
+      "deletions": 712,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDQ3MTAxNzY0",
+      "title": "Feature/juninho dev",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/233",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-07-09T21:25:34Z",
+      "number": 233,
+      "changedFiles": 73,
+      "additions": 918,
+      "deletions": 562,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDQ1NzA1Nzc2",
+      "title": "Feature/juninho dev",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/232",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-07-07T21:47:32Z",
+      "number": 232,
+      "changedFiles": 60,
+      "additions": 1441,
+      "deletions": 905,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDQ1MDE1MjQ5",
+      "title": "Feature/juninho dev",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/231",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-07-06T21:37:21Z",
+      "number": 231,
+      "changedFiles": 27,
+      "additions": 1577,
+      "deletions": 1101,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDQ0MjA1ODI3",
+      "title": "Feature/juninho dev",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/230",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-07-03T22:23:46Z",
+      "number": 230,
+      "changedFiles": 23,
+      "additions": 267,
+      "deletions": 164,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDQzNTAzNjc1",
+      "title": "Feature/juninho dev",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/229",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-07-02T13:04:09Z",
+      "number": 229,
+      "changedFiles": 21,
+      "additions": 763,
+      "deletions": 1820,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDQyMjk5NjU1",
+      "title": "Feature/juninho dev",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/228",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-06-30T21:17:46Z",
+      "number": 228,
+      "changedFiles": 64,
+      "additions": 2905,
+      "deletions": 842,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDQwMzAzMTgz",
+      "title": "Feature/juninho dev",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/225",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-06-25T23:17:52Z",
+      "number": 225,
+      "changedFiles": 4,
+      "additions": 221,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDQwMzAwMTAz",
+      "title": "Implementando Grafico na dashboard Admin",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/224",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-06-25T23:07:25Z",
+      "number": 224,
+      "changedFiles": 7,
+      "additions": 16286,
+      "deletions": 4,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDM5NTExMzIz",
+      "title": "Disparando emails para Usuarios direto de minha assinatura",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/219",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-06-24T21:06:27Z",
+      "number": 219,
+      "changedFiles": 8,
+      "additions": 189,
+      "deletions": 56,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDM4ODMyOTg2",
+      "title": "Tirando '-' do cartao no minha assinatura",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/216",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-06-23T21:31:33Z",
+      "number": 216,
+      "changedFiles": 1,
+      "additions": 2,
+      "deletions": 2,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDM4ODA5ODc0",
+      "title": "Refatorando controlador cielo",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/214",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-06-23T20:45:04Z",
+      "number": 214,
+      "changedFiles": 4,
+      "additions": 134,
+      "deletions": 71,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDM4NTgwNzk0",
+      "title": "Ajustando sendCharge",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/212",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-06-23T13:43:02Z",
+      "number": 212,
+      "changedFiles": 2,
+      "additions": 4,
+      "deletions": 4,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDM4MTc0ODEz",
+      "title": "Ajustando verificações de minha assinatura",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/209",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-06-22T21:00:13Z",
+      "number": 209,
+      "changedFiles": 7,
+      "additions": 461,
+      "deletions": 180,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDM3MzEzNDM1",
+      "title": "Atualizando cartão funxiona",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/208",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-06-19T22:09:23Z",
+      "number": 208,
+      "changedFiles": 5,
+      "additions": 178,
+      "deletions": 23,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDM3MTgwNDMz",
+      "title": "Feature/juninho dev",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/207",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-06-19T16:00:46Z",
+      "number": 207,
+      "changedFiles": 8,
+      "additions": 132,
+      "deletions": 55,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDM2NjQwNzQ3",
+      "title": "Arrumando botao login na home",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/195",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-06-18T17:07:41Z",
+      "number": 195,
+      "changedFiles": 2,
+      "additions": 2400,
+      "deletions": 1551,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDM2MDgyMTM4",
+      "title": "Feature/juninho dev",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/193",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-06-17T20:35:04Z",
+      "number": 193,
+      "changedFiles": 2,
+      "additions": 4,
+      "deletions": 4,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDM2MDY1Njc2",
+      "title": "Ajustes",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/192",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-06-17T20:01:05Z",
+      "number": 192,
+      "changedFiles": 3,
+      "additions": 14,
+      "deletions": 9,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDM2MDU0OTEy",
+      "title": "Correção Ortográfica",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/190",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-06-17T19:36:32Z",
+      "number": 190,
+      "changedFiles": 7,
+      "additions": 50,
+      "deletions": 50,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDM2MDE1NjY4",
+      "title": "Arrumando exibiçao de teste admin",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/189",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-06-17T18:13:01Z",
+      "number": 189,
+      "changedFiles": 1,
+      "additions": 181,
+      "deletions": 129,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDM1Mzk3ODUw",
+      "title": "Features juniel",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/182",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-06-16T18:33:18Z",
+      "number": 182,
+      "changedFiles": 1,
+      "additions": 24,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDM0NzI4MDk4",
+      "title": "Ajustes no teste PDF",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/169",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-06-15T19:22:58Z",
+      "number": 169,
+      "changedFiles": 2,
+      "additions": 3,
+      "deletions": 4,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDM0NzE2MDI3",
+      "title": "Features juniel",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/168",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-06-15T18:58:40Z",
+      "number": 168,
+      "changedFiles": 8,
+      "additions": 162,
+      "deletions": 63,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDM0NzA1ODIy",
+      "title": "Features juniel",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/167",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2020-06-15T18:35:50Z",
+      "number": 167,
+      "changedFiles": 9,
+      "additions": 62,
+      "deletions": 19,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDM0NTg4MjA5",
+      "title": "Features juniel",
+      "url": "https://github.com/Gabrielpatrola/vet-laravel/pull/161",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+        "url": "https://github.com/juniel-filappi",
+        "login": "juniel-filappi"
+      },
+      "createdAt": "2020-06-15T14:45:19Z",
+      "number": 161,
+      "changedFiles": 4,
+      "additions": 140,
+      "deletions": 28,
+      "baseRepository": {
+        "name": "vet-laravel",
+        "url": "https://github.com/Gabrielpatrola/vet-laravel",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20545209?u=0869c2ab134d0b0d15acdfce48710052e55c669d&v=4",
+          "login": "Gabrielpatrola",
+          "url": "https://github.com/Gabrielpatrola"
         }
       }
     }
   ],
-  "merged": 54,
-  "open": 13,
+  "merged": 99,
+  "open": 0,
   "totalCount": 100
 }
