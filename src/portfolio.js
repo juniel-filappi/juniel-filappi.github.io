@@ -327,7 +327,7 @@ const experience = {
   title: "Experiência",
   subtitle: "Trabalho, Estágio e Voluntariado",
   description:
-    "Trabalhei em uma startup como desenvolvedor full stack, devops e arquiteto de software. Também trabalhei com algumas empresas bem estabelecidas, principalmente como desenvolvedor full stack em PHP/Laravel, Node/Express e React, React Native e Vue.",
+    "Trabalhei em uma startup como desenvolvedor full stack, devops e arquiteto de software. Também trabalhei com algumas empresas bem estabelecidas, principalmente como desenvolvedor full stack em PHP/Laravel, Node/Express/Adonis/Fastify/NestJS e React, React Native e Vue.",
   header_image_path: "experience.svg",
   sections: [
     {
