@@ -1,9 +1,61 @@
 {
-  "closed": 84,
+  "closed": 87,
   "data": [
     {
-      "id": "I_kwDOFEZON86H8NVt",
+      "id": "I_kwDOFEZON86Jtlzf",
       "closed": false,
+      "title": "[Landing Pages] - Refatorar arquitetura de dominio e subdominio para N:N",
+      "createdAt": "2024-05-22T12:38:20Z",
+      "url": "https://github.com/crmpiperun/piperun-dev/issues/7315",
+      "number": 7315,
+      "assignees": {
+        "nodes": [
+          {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+            "name": "Juniel Filappi",
+            "url": "https://github.com/juniel-filappi"
+          }
+        ]
+      },
+      "repository": {
+        "name": "piperun-dev",
+        "url": "https://github.com/crmpiperun/piperun-dev",
+        "owner": {
+          "login": "crmpiperun",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOFEZON86JA0i7",
+      "closed": true,
+      "title": "[Landing Pages] - Adicionando imagem da pagina e meta tag og:image",
+      "createdAt": "2024-05-15T19:33:08Z",
+      "url": "https://github.com/crmpiperun/piperun-dev/issues/7241",
+      "number": 7241,
+      "assignees": {
+        "nodes": [
+          {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/64512456?u=be36d7f401116addf06c43fe1ccf1d07cbc8a7ee&v=4",
+            "name": "Juniel Filappi",
+            "url": "https://github.com/juniel-filappi"
+          }
+        ]
+      },
+      "repository": {
+        "name": "piperun-dev",
+        "url": "https://github.com/crmpiperun/piperun-dev",
+        "owner": {
+          "login": "crmpiperun",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
+          "url": "https://github.com/crmpiperun"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOFEZON86H8NVt",
+      "closed": true,
       "title": "[Landing Pages] - Dominio customizado, campos customizados e entre outros",
       "createdAt": "2024-05-06T11:56:31Z",
       "url": "https://github.com/crmpiperun/piperun-dev/issues/7147",
@@ -29,7 +81,7 @@
     },
     {
       "id": "I_kwDOFEZON86HxUvr",
-      "closed": false,
+      "closed": true,
       "title": "[PiperunMax] - Dar continuidade na migração para o vite ajustando os arquivos TS",
       "createdAt": "2024-05-03T14:54:32Z",
       "url": "https://github.com/crmpiperun/piperun-dev/issues/7142",
@@ -2382,6 +2434,6 @@
       }
     }
   ],
-  "open": 14,
-  "totalCount": 98
+  "open": 13,
+  "totalCount": 100
 }

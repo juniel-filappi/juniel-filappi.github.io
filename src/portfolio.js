@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Olá! Sou estudante de engenharia da computação com experiência desde 2019 como desenvolvedor backend e frontend. Trabalho com PHP/Laravel e também tenho habilidades em JS/Node.js para o backend, além de JS/Vue.js/React/React Native para o frontend.",
   resumeLink:
-    "https://drive.google.com/file/d/1FSYcFGbo7S9XRx_mXwpx57augyG_zoIM/view?usp=sharing",
+    "https://drive.google.com/file/d/1c-TweBO8ItJ-E_PgDvWxWuFUacTZFFaf/view?usp=sharing",
   portfolio_repository: "https://github.com/juniel-filappi/masterPortfolio",
   githubProfile: "https://github.com/juniel-filappi",
 };
@@ -66,9 +66,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Desenvolvimento de websites front-end usando React e Vue",
-        "⚡ Desenvolvimento de aplicativos móveis usando React Native",
-        "⚡ Criação de back-end usando PHP, Laravel, Node, Express e Adonis",
+        "⚡ Desenvolvimento de websites front-end usando React, Vue, Next.js e Nuxt.js",
+        "⚡ Desenvolvimento de aplicativos móveis usando React Native e Expo",
+        "⚡ Criação de back-end usando PHP, Laravel, Node, Express, Adonis, Fastify e NestJS",
       ],
       softwareSkills: [
         {
@@ -90,6 +90,20 @@ const skills = {
           fontAwesomeClassname: "simple-icons:sass",
           style: {
             color: "#CC6699",
+          },
+        },
+        {
+          skillName: "NextJS",
+          fontAwesomeClassname: "simple-icons:nextdotjs",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "NuxtJS",
+          fontAwesomeClassname: "simple-icons:nuxtdotjs",
+          style: {
+            color: "#00DC82",
           },
         },
         {
@@ -115,6 +129,13 @@ const skills = {
           },
         },
         {
+          skillName: "NestJS",
+          fontAwesomeClassname: "devicon-plain:nestjs",
+          style: {
+            color: "#E0234E",
+          },
+        },
+        {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
           style: {
@@ -122,10 +143,59 @@ const skills = {
           },
         },
         {
+          skillName: "Express",
+          fontAwesomeClassname: "simple-icons:express",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Fastify",
+          fontAwesomeClassname: "simple-icons:fastify",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
           skillName: "Yarn",
           fontAwesomeClassname: "simple-icons:yarn",
           style: {
             color: "#2C8EBB",
+          },
+        },
+        {
+          skillName: "Vite",
+          fontAwesomeClassname: "simple-icons:vite",
+          style: {
+            color: "#646CFF",
+          },
+        },
+        {
+          skillName: "Vitest",
+          fontAwesomeClassname: "simple-icons:vitest",
+          style: {
+            color: "#6E9F18",
+          },
+        },
+        {
+          skillName: "React Query",
+          fontAwesomeClassname: "simple-icons:reactquery",
+          style: {
+            color: "#FF4154",
+          },
+        },
+        {
+          skillName: "Expo",
+          fontAwesomeClassname: "simple-icons:expo",
+          style: {
+            color: "#000020",
+          },
+        },
+        {
+          skillName: "Redis",
+          fontAwesomeClassname: "simple-icons:redis",
+          style: {
+            color: "#FF4438",
           },
         },
         {
@@ -271,7 +341,7 @@ const experience = {
           duration: "Outubro 2022 - Presente",
           location: "Porto Alegre, Rio Grande do Sul",
           description:
-            "- Trabalho como Full Stack utilizando Laravel no backend e Vue.js no frontend;\n" +
+            "- Trabalho como Full Stack utilizando Laravel/Node no backend e Vue.js/React no frontend;\n" +
             "- Desenvolvimento de extensões do google chrome usando vue.js;\n" +
             "- Trabalhei com refatorações de projetos, o ultimo feito foi migrar de vue-cli-service para vite.js e JS para Typescript;\n" +
             "- Desenvolvimento de novas features para somar ao produto final;\n" +
