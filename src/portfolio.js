@@ -93,6 +93,20 @@ const skills = {
           },
         },
         {
+          skillName: "NextJS",
+          fontAwesomeClassname: "simple-icons:nextdotjs",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "NuxtJS",
+          fontAwesomeClassname: "simple-icons:nuxtdotjs",
+          style: {
+            color: "#00DC82",
+          },
+        },
+        {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
           style: {
@@ -115,6 +129,13 @@ const skills = {
           },
         },
         {
+          skillName: "NestJS",
+          fontAwesomeClassname: "devicon-plain:nestjs",
+          style: {
+            color: "#E0234E",
+          },
+        },
+        {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
           style: {
@@ -122,10 +143,59 @@ const skills = {
           },
         },
         {
+          skillName: "Express",
+          fontAwesomeClassname: "simple-icons:express",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Fastify",
+          fontAwesomeClassname: "simple-icons:fastify",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
           skillName: "Yarn",
           fontAwesomeClassname: "simple-icons:yarn",
           style: {
             color: "#2C8EBB",
+          },
+        },
+        {
+          skillName: "Vite",
+          fontAwesomeClassname: "simple-icons:vite",
+          style: {
+            color: "#646CFF",
+          },
+        },
+        {
+          skillName: "Vitest",
+          fontAwesomeClassname: "simple-icons:vitest",
+          style: {
+            color: "#6E9F18",
+          },
+        },
+        {
+          skillName: "React Query",
+          fontAwesomeClassname: "simple-icons:reactquery",
+          style: {
+            color: "#FF4154",
+          },
+        },
+        {
+          skillName: "Expo",
+          fontAwesomeClassname: "simple-icons:expo",
+          style: {
+            color: "#000020",
+          },
+        },
+        {
+          skillName: "Redis",
+          fontAwesomeClassname: "simple-icons:redis",
+          style: {
+            color: "#FF4438",
           },
         },
         {
