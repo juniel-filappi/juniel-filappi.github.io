@@ -4,6 +4,16 @@
       "login": "crmpiperun",
       "avatarUrl": "https://avatars.githubusercontent.com/u/79278319?v=4",
       "__typename": "Organization"
+    },
+    {
+      "login": "bankme-tech",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/76438827?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "cotton-expert",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/206263734?v=4",
+      "__typename": "Organization"
     }
   ]
 }
