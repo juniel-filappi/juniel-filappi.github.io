@@ -1,29 +1,32 @@
-import React, { Component } from "react";
-import "./Certifications.css";
-import { Fade } from "react-reveal";
-import { certifications } from "../../portfolio";
+import React from "react";
 import CertificationCard from "../../components/certificationCard/CertificationCard";
+import { certifications } from "../../portfolio";
+import "./Certifications.css";
 
-class Certifications extends Component {
-  render() {
-    const theme = this.props.theme;
-    return (
-      <div className="main" id="certs">
-        <div className="certs-header-div">
-          <Fade bottom duration={2000} distance="20px">
-            <h1 className="certs-header" style={{ color: theme.text }}>
-              Certificados
-            </h1>
-          </Fade>
+export default function Certifications({ theme }) {
+  return (
+    <section
+      aria-labelledby="certifications-heading"
+      className="certifications-section section"
+      id="certs"
+    >
+      <div className="site-container">
+        <div className="certifications-section__heading">
+          <p className="certifications-section__eyebrow">
+            Desenvolvimento contínuo
+          </p>
+          <h2 id="certifications-heading">Certificações</h2>
         </div>
-        <div className="certs-body-div">
-          {certifications.certifications.map((cert) => {
-            return <CertificationCard certificate={cert} theme={theme} />;
-          })}
+        <div className="certifications-grid">
+          {certifications.certifications.map((certificate) => (
+            <CertificationCard
+              certificate={certificate}
+              key={`${certificate.title}-${certificate.subtitle}`}
+              theme={theme}
+            />
+          ))}
         </div>
       </div>
-    );
-  }
+    </section>
+  );
 }
-
-export default Certifications;

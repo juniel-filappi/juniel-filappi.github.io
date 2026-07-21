@@ -1,43 +1,34 @@
-import React, { Component } from "react";
+import React from "react";
 import "./CertificationCard.css";
-import { Fade } from "react-reveal";
 
-class CertificationCard extends Component {
-  render() {
-    const certificate = this.props.certificate;
-    const theme = this.props.theme;
-    return (
-      <Fade bottom duration={2000} distance="20px">
-        <div className="cert-card">
-          <div className="content">
-            <div rel="noopener noreferrer">
-              <div
-                className="cert-header"
-                style={{ backgroundColor: certificate.color_code }}
-              >
-                <img
-                  className="logo_img"
-                  src={require(`../../assests/images/${certificate.logo_path}`)}
-                  alt={certificate.alt_name}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="cert-body">
-            <h2 className="cert-body-title" style={{ color: theme.text }}>
-              {certificate.title}
-            </h2>
-            <h3
-              className="cert-body-subtitle"
-              style={{ color: theme.secondaryText }}
-            >
-              {certificate.subtitle}
-            </h3>
-          </div>
-        </div>
-      </Fade>
-    );
+export default function CertificationCard({ certificate }) {
+  const certificateContent = (
+    <article className="certification-card">
+      <div className="certification-card__logo">
+        <img
+          alt={certificate.alt_name}
+          src={require(`../../assests/images/${certificate.logo_path}`)}
+        />
+      </div>
+      <div className="certification-card__content">
+        <h3>{certificate.title}</h3>
+        <p>{certificate.subtitle}</p>
+      </div>
+    </article>
+  );
+
+  if (!certificate.certificate_link) {
+    return certificateContent;
   }
-}
 
-export default CertificationCard;
+  return (
+    <a
+      className="certification-card__link"
+      href={certificate.certificate_link}
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      {certificateContent}
+    </a>
+  );
+}

@@ -1,29 +1,30 @@
-import React, { Component } from "react";
-import "./Educations.css";
-import DegreeCard from "../../components/degreeCard/DegreeCard.js";
+import React from "react";
+import DegreeCard from "../../components/degreeCard/DegreeCard";
 import { degrees } from "../../portfolio";
-import { Fade } from "react-reveal";
+import "./Educations.css";
 
-class Educations extends Component {
-  render() {
-    const theme = this.props.theme;
-    return (
-      <div className="main" id="educations">
-        <div className="educations-header-div">
-          <Fade bottom duration={2000} distance="20px">
-            <h1 className="educations-header" style={{ color: theme.text }}>
-              Graduação
-            </h1>
-          </Fade>
+export default function Educations({ theme }) {
+  return (
+    <section
+      aria-labelledby="education-heading"
+      className="education-section section section--soft"
+      id="educations"
+    >
+      <div className="site-container">
+        <div className="education-section__heading">
+          <p className="education-section__eyebrow">Formação acadêmica</p>
+          <h2 id="education-heading">Graduação</h2>
         </div>
-        <div className="educations-body-div">
-          {degrees.degrees.map((degree) => {
-            return <DegreeCard degree={degree} theme={theme} />;
-          })}
+        <div className="education-records">
+          {degrees.degrees.map((degree) => (
+            <DegreeCard
+              degree={degree}
+              key={`${degree.title}-${degree.subtitle}`}
+              theme={theme}
+            />
+          ))}
         </div>
       </div>
-    );
-  }
+    </section>
+  );
 }
-
-export default Educations;

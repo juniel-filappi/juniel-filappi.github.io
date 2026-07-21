@@ -1,54 +1,25 @@
-import React, { Component } from "react";
-import ExperienceCard from "../../components/experienceCard/ExperienceCard.js";
+import React from "react";
+import ExperienceCard from "../../components/experienceCard/ExperienceCard";
 import "./ExperienceAccordion.css";
-import { Accordion, Panel } from "baseui/accordion";
 
-class ExperienceAccordion extends Component {
-  render() {
-    const theme = this.props.theme;
-    return (
-      <div className="experience-accord">
-        <Accordion>
-          {this.props.sections.map((section) => {
-            return (
-              <Panel
-                className="accord-panel"
-                title={section["title"]}
-                key={section["title"]}
-                overrides={{
-                  Header: {
-                    style: () => ({
-                      backgroundColor: `${theme.body}`,
-                      border: `1px solid`,
-                      borderRadius: `5px`,
-                      borderColor: `${theme.headerColor}`,
-                      marginBottom: `3px`,
-                      fontFamily: "Google Sans Regular",
-                      color: `${theme.text}`,
-                      ":hover": {
-                        color: `${theme.secondaryText}`,
-                      },
-                    }),
-                  },
-                  Content: {
-                    style: () => ({
-                      backgroundColor: `${theme.body}`,
-                    }),
-                  },
-                }}
-              >
-{section["experiences"].map((experience,index) => {
-                  return (
-                    <ExperienceCard index={index} totalCards={section["experiences"].length} experience={experience} theme={theme} />
-                  );
-                })}
-              </Panel>
-            );
-          })}
-        </Accordion>
+export default function ExperienceAccordion({ sections }) {
+  return (
+    <div className="experience-accord">
+      <div className="site-container experience-sections">
+        {sections.map((section) => (
+          <section className="experience-group" key={section.title}>
+            <h2>{section.title}</h2>
+            <div className="experience-group__entries">
+              {section.experiences.map((entry) => (
+                <ExperienceCard
+                  experience={entry}
+                  key={`${entry.company}-${entry.title}-${entry.duration}`}
+                />
+              ))}
+            </div>
+          </section>
+        ))}
       </div>
-    );
-  }
+    </div>
+  );
 }
-
-export default ExperienceAccordion;

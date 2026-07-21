@@ -1,11 +1,32 @@
-#topButton {
-  visibility: hidden;
+.top-button {
   position: fixed;
-  bottom: 1.2rem;
-  right: 1.5rem;
+  right: var(--space-6);
+  bottom: var(--space-6);
+  z-index: var(--z-sticky);
+  display: grid;
+  width: 48px;
+  min-height: 48px;
+  padding: 0;
+  place-items: center;
+  border: 1px solid var(--color-primary);
+  border-radius: 0;
+  background: var(--color-primary);
+  color: var(--color-on-dark);
   cursor: pointer;
-  padding: 15px;
-  outline: none;
-  border-radius: 2rem;
-  font-size: 1.5rem;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(var(--space-3));
+  transition: opacity var(--duration-fast) var(--ease-out),
+    transform var(--duration-fast) var(--ease-out),
+    background-color var(--duration-fast) var(--ease-out);
+}
+
+.top-button--visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.top-button:hover {
+  background: var(--color-primary-active);
 }

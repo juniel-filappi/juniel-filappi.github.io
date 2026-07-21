@@ -1,39 +1,24 @@
-import React, { Component } from "react";
-import Header from "../../../components/header/Header";
-import Footer from "../../../components/footer/Footer";
-import TopButton from "../../../components/topButton/TopButton";
-import { Fade } from "react-reveal";
-import "./Error.css";
+import React from "react";
 import { Link } from "react-router-dom";
+import PageShell from "../../../components/pageShell/PageShell";
+import "./Error.css";
 
-export default class Error extends Component {
-  render() {
-    const theme = this.props.theme;
-    return (
-      <div className="error-main">
-        <Header theme={this.props.theme} />
-        <div className="error-class">
-          <Fade bottom duration={2000} distance="40px">
-            <h1>Woops</h1>
-            <h1 className="error-404">404</h1>
-            <p>The requested page is unavailable at the moment!</p>
-            <Link
-              className="main-button"
-              to="/home"
-              style={{
-                color: theme.body,
-                backgroundColor: theme.text,
-                border: `solid 1px ${theme.text}`,
-                display: "inline-flex",
-              }}
-            >
-              Go Home
-            </Link>
-          </Fade>
+export default function Error404({ theme }) {
+  return (
+    <PageShell pageClassName="error-page" theme={theme}>
+      <section className="error-hero section section--dark">
+        <div className="site-container error-hero__content">
+          <p className="error-hero__code">404</p>
+          <h1>Página não encontrada</h1>
+          <p>O endereço informado não existe ou foi movido.</p>
+          <Link
+            className="action-link action-link--secondary-on-dark error-hero__action"
+            to="/home"
+          >
+            Voltar ao início
+          </Link>
         </div>
-        <Footer theme={this.props.theme} />
-        <TopButton theme={this.props.theme} />
-      </div>
-    );
-  }
+      </section>
+    </PageShell>
+  );
 }

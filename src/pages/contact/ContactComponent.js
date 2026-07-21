@@ -1,57 +1,32 @@
-import React, { Component } from "react";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
-import TopButton from "../../components/topButton/TopButton";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
+import React from "react";
 import Button from "../../components/button/Button";
-import BlogsImg from "./BlogsImg";
-import AddressImg from "./AddressImg";
-import { Fade } from "react-reveal";
+import PageShell from "../../components/pageShell/PageShell";
+import SocialMedia from "../../components/socialMedia/SocialMedia";
+import { contactPageData, greeting } from "../../portfolio.js";
 import "./ContactComponent.css";
-import { greeting, contactPageData } from "../../portfolio.js";
 
-const ContactData = contactPageData.contactSection;
+const contactSection = contactPageData.contactSection;
 
-class Contact extends Component {
-  render() {
-    const theme = this.props.theme;
-    return (
-      <div className="contact-main">
-        <Header theme={theme} />
-        <div className="basic-contact">
-          <Fade bottom duration={1000} distance="40px">
-            <div className="contact-heading-div">
-              <div className="contact-heading-text-div">
-                <h1
-                  className="contact-heading-text"
-                  style={{ color: theme.text }}
-                >
-                  {ContactData["title"]}
-                </h1>
-                <p
-                  className="contact-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
-                >
-                  {ContactData["description"]}
-                </p>
-                <SocialMedia theme={theme} />
-                <div className="resume-btn-div">
-                  <Button
-                    text="Ver meu currículo"
-                    newTab={true}
-                    href={greeting.resumeLink}
-                    theme={theme}
-                  />
-                </div>
-              </div>
-            </div>
-          </Fade>
+export default function Contact({ theme }) {
+  return (
+    <PageShell pageClassName="contact-page" theme={theme}>
+      <section className="contact-hero section section--dark">
+        <div className="site-container contact-hero__content">
+          <p className="contact-hero__eyebrow">Vamos conversar</p>
+          <h1>{contactSection.title}</h1>
+          <p className="contact-hero__description">
+            {contactSection.description}
+          </p>
+          <SocialMedia />
+          <Button
+            className="contact-hero__resume-action"
+            href={greeting.resumeLink}
+            newTab={true}
+            text="Ver currículo"
+            variant="secondary-on-dark"
+          />
         </div>
-        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
-        <TopButton theme={this.props.theme} />
-      </div>
-    );
-  }
+      </section>
+    </PageShell>
+  );
 }
-
-export default Contact;

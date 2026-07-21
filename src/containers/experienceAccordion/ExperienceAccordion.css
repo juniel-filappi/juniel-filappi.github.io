@@ -1,13 +1,21 @@
 .experience-accord {
-  margin: 50px;
+  padding-block: var(--space-section);
 }
 
-.accord-panel {
-  font-family: "Google Sans Regular";
+.experience-sections {
+  display: grid;
+  gap: var(--space-12);
 }
 
-@media (max-width: 768px) {
-  .experience-accord {
-    margin: 20px;
-  }
+.experience-group h2 {
+  margin: 0;
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: var(--type-display-md);
+  line-height: 1.15;
+}
+
+.experience-group__entries {
+  margin-top: var(--space-6);
+  border-top: 1px solid var(--color-line);
 }

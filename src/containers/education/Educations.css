@@ -1,18 +1,21 @@
-.educations-header {
-  font-size: 40px;
+.education-section__heading {
+  max-width: 44rem;
+  margin-bottom: var(--space-8);
+}
+
+.education-section__eyebrow {
+  margin: 0 0 var(--space-2);
+  color: var(--color-primary);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.education-section h2 {
+  margin: 0;
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: var(--type-display-lg);
   line-height: 1.1;
-  font-family: "Google Sans Regular";
-  text-align: center;
-}
-
-@media (max-width: 1380px) {
-  .educations-header {
-    font-size: 35px;
-  }
-}
-
-@media (max-width: 768px) {
-  .educations-header {
-    font-size: 30px;
-  }
 }

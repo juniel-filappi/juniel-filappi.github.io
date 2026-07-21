@@ -1,30 +1,39 @@
-.error-main {
-  width: 100vw;
+.error-page {
+  background: var(--color-canvas);
 }
 
-.error-main > .error-class {
-  width: 90%;
-  margin: auto 5%;
-  /* min-height: calc(100vh - 192px); */
-  text-align: center;
-  display: block;
+.error-hero {
+  display: grid;
+  min-height: calc(100vh - 64px);
+  align-items: center;
 }
 
-.error-main > .error-class > .error-404 {
-  font-size: 7em;
-  overflow: hidden;
-  padding-top: 10px 0;
-  margin: 10px 0;
+.error-hero__content {
+  max-width: 44rem;
 }
 
-.error-main > .error-class p {
-  font-size: 1.4em;
-  margin-top: 0;
+.error-hero__code {
+  margin: 0 0 var(--space-3);
+  color: var(--color-on-dark-soft);
+  font-family: var(--font-display);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
 }
 
-@media screen and (min-width: 1364px) {
-  .error-main > .error-class > .error-404 {
-    height: 175px;
-    padding-top: 60px;
-  }
+.error-hero h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--type-display-xl);
+  line-height: 1.05;
+}
+
+.error-hero h1 + p {
+  margin: var(--space-6) 0 var(--space-8);
+  color: var(--color-on-dark-soft);
+  font-size: 1.125rem;
+}
+
+.error-hero__action {
+  text-decoration: none;
 }

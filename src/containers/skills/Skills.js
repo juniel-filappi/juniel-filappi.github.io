@@ -1,20 +1,18 @@
 import React from "react";
-import "./Skills.css";
+import SectionHeading from "../../components/sectionHeading/SectionHeading";
 import SkillSection from "./SkillSection";
-import { Fade } from "react-reveal";
+import "./Skills.css";
 
-export default function Skills(props) {
-  const theme = props.theme;
+export default function Skills() {
   return (
-    <div className="main" id="skills">
-      <div className="skills-header-div">
-        <Fade bottom duration={2000} distance="20px">
-          <h1 className="skills-header" style={{ color: theme.text }}>
-            O que eu faço?
-          </h1>
-        </Fade>
+    <section className="section home-skills" id="skills">
+      <div className="site-container">
+        <SectionHeading
+          description="Da interface à infraestrutura, com foco em escolhas que deixam o produto pronto para crescer."
+          title="Capacidades técnicas"
+        />
+        <SkillSection />
       </div>
-      <SkillSection theme={theme} />
-    </div>
+    </section>
   );
 }

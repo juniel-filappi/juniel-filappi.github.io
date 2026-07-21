@@ -1,37 +1,40 @@
 import React from "react";
-import "./SocialMedia.css";
 import { socialMediaLinks } from "../../portfolio";
-import styled from "styled-components";
+import "./SocialMedia.css";
 
-const IconWrapper = styled.span`
-  i {
-    background-color: ${(props) => props.backgroundColor};
-  }
-  &:hover i {
-    background-color: ${({ theme }) => theme.text};
-    transition: 0.3s ease-in;
-  }
-`;
+const actionLabels = {
+  Github: "Ver GitHub",
+  LinkedIn: "Ver LinkedIn",
+  Gmail: "Enviar e-mail",
+};
 
-export default function socialMedia(props) {
+function getActionLabel(media) {
+  return actionLabels[media.name] || `Ver ${media.name}`;
+}
+
+export default function SocialMedia() {
   return (
-    <div className="social-media-div">
-      {socialMediaLinks.map((media, i) => {
+    <ul aria-label="Canais de contato" className="social-media-list">
+      {socialMediaLinks.map((media) => {
+        const isExternalLink = media.link.startsWith("http");
+
         return (
-          <a
-            key={i}
-            href={media.link}
-            className={`icon-button`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <IconWrapper {...media} {...props}>
-              <i className={`fab ${media.fontAwesomeIcon}`}></i>
-            </IconWrapper>
-            {/* <span></span> */}
-          </a>
+          <li key={media.name}>
+            <a
+              className="social-media-link"
+              href={media.link}
+              rel={isExternalLink ? "noopener noreferrer" : undefined}
+              target={isExternalLink ? "_blank" : undefined}
+            >
+              <i
+                aria-hidden="true"
+                className={`fab ${media.fontAwesomeIcon}`}
+              />
+              <span>{getActionLabel(media)}</span>
+            </a>
+          </li>
         );
       })}
-    </div>
+    </ul>
   );
 }

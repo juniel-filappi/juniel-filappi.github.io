@@ -1,28 +1,28 @@
-.certs-header {
-  font-size: 40px;
+.certifications-section__heading {
+  max-width: 44rem;
+  margin-bottom: var(--space-8);
+}
+
+.certifications-section__eyebrow {
+  margin: 0 0 var(--space-2);
+  color: var(--color-primary);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.certifications-section h2 {
+  margin: 0;
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: var(--type-display-lg);
   line-height: 1.1;
-  font-family: "Google Sans Regular";
-  text-align: center;
 }
 
-.certs-body-div {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-@media (max-width: 1380px) {
-  .certs-header {
-    font-size: 35px;
-  }
-}
-
-@media (max-width: 768px) {
-  .certs-body-div {
-    flex-direction: column;
-  }
-
-  .certs-header {
-    font-size: 30px;
-  }
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  border-top: 1px solid var(--color-line);
+  border-left: 1px solid var(--color-line);
 }

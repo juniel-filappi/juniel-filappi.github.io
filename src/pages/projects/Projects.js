@@ -1,67 +1,59 @@
-import React, { Component } from "react";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
-import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
-import PublicationCard from "../../components/publicationsCard/PublicationCard";
+import React from "react";
 import Button from "../../components/button/Button";
-import TopButton from "../../components/topButton/TopButton";
-import { Fade } from "react-reveal";
-import { greeting, projectsHeader } from "../../portfolio.js";
+import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
+import PageHero from "../../components/pageHero/PageHero";
+import PageShell from "../../components/pageShell/PageShell";
+import SectionHeading from "../../components/sectionHeading/SectionHeading";
+import { greeting, projectsHeader } from "../../portfolio";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
-import ProjectsImg from "./ProjectsImg";
 
-class Projects extends Component {
-  render() {
-    const theme = this.props.theme;
+export function ProjectsContent({ projects }) {
+  if (projects.length === 0) {
     return (
-      <div className="projects-main">
-        <Header theme={theme} />
-        <div className="basic-projects">
-          <Fade bottom duration={2000} distance="40px">
-            <div className="projects-heading-div">
-              <div className="projects-heading-img-div">
-                {/* <img
-											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-                <ProjectsImg theme={theme} />
-              </div>
-              <div className="projects-heading-text-div">
-                <h1
-                  className="projects-heading-text"
-                  style={{ color: theme.text }}
-                >
-                  {projectsHeader.title}
-                </h1>
-                <p
-                  className="projects-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
-                >
-                  {projectsHeader["description"]}
-                </p>
-              </div>
-            </div>
-          </Fade>
+      <section className="section projects-content">
+        <div className="site-container projects-empty-state">
+          <SectionHeading
+            title="Projetos em atualização"
+            description="Novos estudos e entregas podem ser consultados diretamente no GitHub."
+          />
+          <Button
+            className="projects-empty-state__action"
+            href={greeting.githubProfile}
+            newTab={true}
+            text="Veja todos os projetos no GitHub"
+            variant="secondary"
+          />
         </div>
-        <div className="repo-cards-div-main">
-          {ProjectsData.data.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
-          })}
-        </div>
-        <Button
-          text={"Mais Projetos"}
-          className="project-button"
-          href={greeting.githubProfile}
-          newTab={true}
-          theme={theme}
-        />
-
-        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
-        <TopButton theme={this.props.theme} />
-      </div>
+      </section>
     );
   }
+
+  return (
+    <section className="section projects-content">
+      <div className="site-container">
+        <SectionHeading
+          title="Repositórios selecionados"
+          description="Cada projeto reúne decisões técnicas, tecnologias e contexto para uma leitura objetiva do trabalho realizado."
+        />
+        <div className="projects-showcase">
+          {projects.map((repo, index) => (
+            <GithubRepoCard index={index} key={repo.id} repo={repo} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 }
 
-export default Projects;
+export default function Projects({ theme }) {
+  return (
+    <PageShell pageClassName="projects-page" theme={theme}>
+      <PageHero
+        title={projectsHeader.title}
+        description={projectsHeader.description}
+      />
+      <ProjectsContent projects={ProjectsData.data} />
+    </PageShell>
+  );
+}

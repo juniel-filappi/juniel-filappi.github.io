@@ -1,58 +1,34 @@
 import React from "react";
-import "./Greeting.css";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
+import { Link } from "react-router-dom";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
-import { Fade } from "react-reveal";
-import FeelingProud from "./FeelingProud";
+import "./Greeting.css";
 
-export default function Greeting(props) {
-  const theme = props.theme;
+export default function Greeting() {
   return (
-    <Fade bottom duration={2000} distance="40px">
-      <div className="greet-main" id="greeting">
-        <div className="greeting-main">
-          <div className="greeting-text-div">
-            <div>
-              <h1 className="greeting-text" style={{ color: theme.text }}>
-                {greeting.title}
-              </h1>
-              {greeting.nickname && (
-                <h2 className="greeting-nickname" style={{ color: theme.text }}>
-                  ( {greeting.nickname} )
-                </h2>
-              )}
-              <p
-                className="greeting-text-p subTitle"
-                style={{ color: theme.secondaryText }}
-              >
-                {greeting.subTitle}
-              </p>
-              <SocialMedia theme={theme} />
-              <div className="portfolio-repo-btn-div">
-                <Button
-                  text="⭐ Star Me On Github"
-                  newTab={true}
-                  href={greeting.portfolio_repository}
-                  theme={theme}
-                  className="portfolio-repo-btn"
-                />
-              </div>
-              {/* <div className="button-greeting-div">
-              <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
-            </div> */}
-            </div>
-          </div>
-          <div className="greeting-image-div">
-            {/* <img
-							alt="saad sitting on table"
-							src={require("../../assests/images/feelingProud.svg")}
-						></img> */}
-            <FeelingProud theme={theme} />
+    <section className="home-hero section section--dark" id="greeting">
+      <div className="site-container home-hero__grid">
+        <div className="home-hero__content">
+          <p className="home-hero__role">Full Stack Developer Sênior</p>
+          <h1>Engenharia de software para produtos que precisam evoluir.</h1>
+          <p>{greeting.subTitle}</p>
+          <div className="home-hero__actions">
+            <Link className="action-link action-link--primary" to="/projects">
+              Ver projetos
+            </Link>
+            <Button
+              href={greeting.resumeLink}
+              newTab
+              text="Ver currículo"
+              variant="secondary-on-dark"
+            />
           </div>
         </div>
+        <div className="technical-plane" aria-hidden="true">
+          <span>backend / frontend / cloud</span>
+          <strong>Arquitetura, integração e entrega contínua.</strong>
+        </div>
       </div>
-    </Fade>
+    </section>
   );
 }

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Action Blue",
+        "canonical": "#1c69d4"
+      },
+      "surface-dark": {
+        "role": "neutral",
+        "displayName": "Engineering Navy",
+        "canonical": "#1a2129"
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Canvas White",
+        "canonical": "#ffffff"
+      }
+    },
+    "typographyMeta": {
+      "display-xl": {
+        "displayName": "Display XL",
+        "purpose": "One primary statement per route."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Readable professional descriptions up to 70 characters per line."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "State transitions and the single coordinated hero entrance."
+      },
+      {
+        "name": "duration-fast",
+        "value": "180ms",
+        "purpose": "Navigation and control feedback."
+      },
+      {
+        "name": "duration-enter",
+        "value": "520ms",
+        "purpose": "Home hero entrance."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "768px"
+      },
+      {
+        "name": "desktop",
+        "value": "1024px"
+      },
+      {
+        "name": "wide",
+        "value": "1440px"
+      }
+    ]
+  },
+  "generatedAt": "2026-07-20T00:00:00Z",
+  "narrative": {
+    "northStar": "Precision Engineering Showcase",
+    "overview": "A measured technical portfolio built from strict geometry, flat surfaces, strong type contrast, and one blue action color.",
+    "keyCharacteristics": [
+      "White canvas with one dark focus band per route",
+      "Rectangular controls and flat panels",
+      "Applied engineering evidence before technology lists",
+      "No decorative shadows or proprietary BMW assets"
+    ]
+  },
+  "schemaVersion": 2,
+  "title": "Design System: Juniel Filappi Portfolio"
+}
